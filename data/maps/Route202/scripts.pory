@@ -1,0 +1,202 @@
+mapscripts Route202_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: Route202_EventScript_Default
+    
+}
+
+script Route202_EventScript_Default {
+    call(Common_EventScript_SetupRivalGfxId)
+    
+}
+
+script Route202_EventScript_RivalBattle {
+    if(!(flag(STARTER_BALL_ONE) || flag(STARTER_BALL_TWO) || flag(STARTER_BALL_THREE))) {
+        setflag(RIVAL_Route202_BATTLE)
+        setvar(STATIS_STATE, 0)
+    }
+    else{
+        if(var(STATIS_STATE) == 0){
+            clearflag(RIVAL_Route202_BATTLE)
+        }
+    }
+    
+}
+
+script RivalBattleTrigger {
+
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, MayBattle)
+    goto_if_eq(VAR_RESULT, FEMALE, BrendanBattle)
+    
+}
+
+script MayBattle {
+    playbgm(MUS_ENCOUNTER_MAY, TRUE)
+        if((flag(STARTER_BALL_ONE))) {
+            trainerbattle_single(TRAINER_MAY_ROUTE_103_MUDKIP, Rival_Intro, Rival_Outro, RivalBattleOver)  
+        }
+        if((flag(STARTER_BALL_TWO))) {
+            trainerbattle_single(TRAINER_MAY_ROUTE_103_TREECKO, Rival_Intro, Rival_Outro, RivalBattleOver)
+        }
+    else{
+            trainerbattle_single(TRAINER_MAY_ROUTE_103_TORCHIC, Rival_Intro, Rival_Outro, RivalBattleOver)
+    }
+    
+    
+}
+
+script BrendanBattle {
+    playbgm(MUS_ENCOUNTER_BRENDAN, TRUE)
+        if((flag(STARTER_BALL_ONE))) {
+            trainerbattle_single(TRAINER_BRENDAN_ROUTE_103_MUDKIP, Rival_Intro, Rival_Outro, RivalBattleOver)  
+        }
+        if((flag(STARTER_BALL_TWO))) {
+            trainerbattle_single(TRAINER_BRENDAN_ROUTE_103_TREECKO, Rival_Intro, Rival_Outro, RivalBattleOver)
+        }
+    else{
+            trainerbattle_single(TRAINER_BRENDAN_ROUTE_103_TORCHIC, Rival_Intro, Rival_Outro, RivalBattleOver)
+    }
+    
+}
+
+script RivalBattleOver {
+
+    lockall
+    applymovement(1, RivalLeave)
+    waitmovement(0)
+    removeobject(1)
+    setflag(RIVAL_Route202_BATTLE)
+    clearflag(BLOCK_ROUTE_203)
+    setvar(STATIS_STATE, 1)
+    waitmessage
+    playbgm(MUS_ROUTE101, TRUE)
+    releaseall
+    
+}
+
+movement RivalLeave {
+
+    face_left
+    walk_left
+    walk_down * 7
+
+    
+}
+
+text Rival_Intro {
+    "Tu ne gagneras pas!"
+    
+}
+
+text Rival_Outro {
+    "Cette fois ne compte pas."
+    
+}
+
+script Route202_Trigger_BlockPath {
+    lockall
+    applymovement(OBJ_EVENT_ID_PLAYER, FaceNPC)
+    waitmovement(0)
+    msgbox(format("Tu n'as pas encore battu ton rival, tu ne peux pas continuer."), MSGBOX_DEFAULT)
+    waitmessage
+    releaseall
+    end
+    
+}
+
+script Route202_Trigger_BlockPath1 {
+    lockall
+    applymovement(OBJ_EVENT_ID_PLAYER, FaceNPC)
+    waitmovement(0)
+    msgbox(format("Tu n'as pas encore battu ton rival, tu ne peux pas continuer."), MSGBOX_DEFAULT)
+    waitmessage
+    applymovement(OBJ_EVENT_ID_PLAYER, Route202_StopPlayer)
+    waitmovement(0)
+    releaseall
+    end
+    
+}
+
+script Route202_Trigger_BlockPath2 {
+    lockall
+    applymovement(3, BlockPath2)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, FaceNPC)
+    waitmovement(0)
+    msgbox(format("Tu n'as pas encore battu ton rival, tu ne peux pas continuer."), MSGBOX_DEFAULT)
+    applymovement(3, BlockPath2Return)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Route202_StopPlayer)
+    waitmovement(0)
+    releaseall
+    end
+    
+}
+
+movement BlockPath2 {
+    walk_down
+    
+}
+
+movement BlockPath2Return {
+    walk_up
+    face_down
+    
+}
+
+script Route202_Trigger_BlockPath3 {
+    lockall
+    applymovement(3, BlockPath3)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, FaceNPC)
+    waitmovement(0)
+    msgbox(format("Tu n'as pas encore battu ton rival, tu ne peux pas continuer."), MSGBOX_DEFAULT)
+    applymovement(3, BlockPath3Return)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Route202_StopPlayer)
+    waitmovement(0)
+    releaseall
+    end
+    
+}
+
+movement BlockPath3 {
+    walk_down * 2
+    
+}
+
+movement BlockPath3Return {
+    walk_up * 2
+    face_down
+    
+}
+
+movement FaceNPC {
+    face_up
+    
+}
+
+movement Route202_StopPlayer {
+    walk_right
+    
+}
+
+script Route202_FirstPerso {
+    lock
+    msgbox(format("Si tu veux avancer plus loin il te faut battre {RIVAL}."))
+    waitmessage
+    release
+    end
+    
+}
+
+script Route202_PokeBall {
+    lock
+    msgbox("Vous avez trouvé un Super bonbon!", MSGBOX_DEFAULT)
+    playfanfare(MUS_OBTAIN_ITEM)
+    giveitem(ITEM_RARE_CANDY, 1)
+    setflag(SECOND_POKE_BALL)
+    removeobject(2)
+    release
+    end
+ 
+}

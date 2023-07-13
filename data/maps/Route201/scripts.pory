@@ -1,0 +1,23 @@
+mapscripts Route201_MapScripts {}
+
+script Route201_FirstPerso {
+
+    lock
+    faceplayer
+    msgbox("Faites attention!\nCet endroit est remplie\pde pokémon sauvage!")
+    release
+    end
+    
+}
+
+script Route201_PokeBall {
+    lock
+    msgbox("Vous avez trouvé une PokéBall!", MSGBOX_DEFAULT)
+    playfanfare(MUS_OBTAIN_ITEM)
+    giveitem(ITEM_POKE_BALL, 1)
+    setflag(FIRST_POKE_BALL)
+    removeobject(2)
+    release
+    end
+ 
+}

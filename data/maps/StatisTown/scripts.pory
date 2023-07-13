@@ -1,0 +1,23 @@
+mapscripts StatisTown_MapScripts {
+    
+}
+
+script StatisTown_NewSign1 {
+    lockall
+	msgbox("Bienvenue à Statis.")
+	releaseall 
+}
+
+script StatisTown_PokeShopSign {
+    lock
+    msgbox("PokeShop de Statis.\nDifférents objets y sont vendus.")
+    release
+    
+}
+
+script StatisTown_PokeCenterSign {
+    lock
+    msgbox("PokeCenter de Statis.\nVous pouvez soigner vos Pokémon ici.")
+    release
+    
+}

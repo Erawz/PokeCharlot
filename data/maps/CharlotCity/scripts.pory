@@ -1,0 +1,198 @@
+mapscripts CharlotCity_MapScripts {
+
+     // @ State descriptions for CHARLOTCITY_STATE
+    //  @ 0: Trigger block
+   //	@ 1: STARTER_BALL
+  //	@ 2: Running Shoes
+
+}
+
+script CharlotCity_EventScript_Trigger {
+    if(!(flag(STARTER_BALL_ONE) || flag(STARTER_BALL_TWO) || flag(STARTER_BALL_THREE))) {
+        setvar(CHARLOTCITY_STATE, 0)
+    }
+    else{
+        if(var(CHARLOTCITY_STATE) == 0){
+        }
+    }
+    
+}
+
+script CharlotCity_Trigger_BlockPath {
+    lockall
+    msgbox("Tu n'as pas encore de pokémon!\nC'est dangereux d'y aller sans\pTu devrais aller voir\nle PROF dans son labo.", MSGBOX_DEFAULT)
+    applymovement(OBJ_EVENT_ID_PLAYER, StopPlayer)
+    waitmovement(0)
+    releaseall
+    end
+    
+}
+
+script CharlotCity_RunningShoes {
+
+    if (var(CHARLOTCITY_STATE) == 2) {
+        lockall
+        opendoor(21, 6)
+        waitdooranim
+        setobjectxyperm(7, 21, 6)
+        addobject(7)
+        applymovement(7, WalkDown)
+        waitmovement(0)
+        applymovement(7, WalkRight)
+        waitmovement(0)
+        applymovement(OBJ_EVENT_ID_PLAYER, TurnLeft)
+        waitmovement(0)
+        msgbox(LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox(LittlerootTown_Text_SwitchShoesWithRunningShoes, MSGBOX_DEFAULT)
+        waitfanfare
+        setflag(FLAG_RECEIVED_RUNNING_SHOES)
+        setflag(FLAG_SYS_B_DASH)
+        msgbox(LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT)
+        applymovement(7, WalkLeft)
+        waitmovement(0)
+        applymovement(7, WalkUp)
+        waitmovement(0)
+        removeobject(7)
+        setflag(FLAG_MET_RIVAL_MOM)
+        closedoor(21, 6)
+        waitdooranim
+        setvar(CHARLOTCITY_STATE, 3)
+        releaseall
+        end  
+    }   
+}
+
+script CharlotCity_RunningShoes1 {
+
+    if (var(CHARLOTCITY_STATE) == 2) {
+        lockall
+        opendoor(21, 6)
+        waitdooranim
+        setobjectxyperm(7, 21, 6)
+        addobject(7)
+        applymovement(7, WalkDown1)
+        waitmovement(0)
+        applymovement(7, WalkRight)
+        waitmovement(0)
+        applymovement(OBJ_EVENT_ID_PLAYER, TurnLeft)
+        waitmovement(0)
+        msgbox(LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox(LittlerootTown_Text_SwitchShoesWithRunningShoes, MSGBOX_DEFAULT)
+        waitfanfare
+        setflag(FLAG_RECEIVED_RUNNING_SHOES)
+        setflag(FLAG_SYS_B_DASH)
+        msgbox(LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT)
+        applymovement(7, WalkLeft)
+        waitmovement(0)
+        applymovement(7, WalkUp1)
+        waitmovement(0)
+        removeobject(7)
+        closedoor(21, 6)
+        waitdooranim
+        setvar(CHARLOTCITY_STATE, 3)
+        releaseall
+        end  
+    }   
+}
+
+script CharlotCity_EventScript_StepOffTruckMale {
+    lockall
+	setvar(VAR_0x8004, 5)
+	setvar(VAR_0x8005, 8)
+	setflag(FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK)
+	warpsilent(MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F, 8, 8)
+	waitstate
+	releaseall
+	end
+}
+	
+
+//LittlerootTown_EventScript_StepOffTruckFemale::
+//	lockall
+//	setvar VAR_0x8004, 14
+//	setvar VAR_0x8005, 8
+//	call LittlerootTown_EventScript_GoInsideWithMom
+//	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
+//	warpsilent MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F, 2, 8
+//	waitstate
+//	releaseall
+//	end
+	
+script CharlotCity_NewSign {
+	lockall
+	msgbox("Maison de Lavachette!")
+	releaseall
+}
+
+script CharlotCity_NewSign1 {
+    lockall
+	msgbox("Maison de Val!")
+	releaseall 
+}
+
+script CharlotCity_NewSign2 {
+    lockall
+	msgbox("Labo du PROF.")
+	releaseall 
+}
+
+script CharlotCity_FirstPerso {
+    lock
+    faceplayer
+    msgbox("Salut!\nJe m'appelle Alan.\lEt toi c'est quoi ton nom?\pRavi de te rencontrer, {PLAYER}!$", MSGBOX_DEFAULT)
+    release
+    end 
+}
+
+script CharlotCity_SecondPerso {
+
+    lock
+    faceplayer
+    msgbox("Je me sens bien ici!", MSGBOX_DEFAULT)
+    release
+    end
+    
+}
+
+script CharlotCity_ThirdPerso {
+
+    lock
+    faceplayer
+    msgbox("Je te souhaite la bievenue à\nCharlot City!", MSGBOX_DEFAULT)
+    release
+    end
+    
+}
+
+
+movement WalkDown {
+    walk_down * 4 
+}
+movement WalkDown1 {
+    walk_down * 5   
+}
+movement WalkRight {
+    walk_right * 3
+}
+movement WalkLeft {
+    walk_left * 3  
+}
+movement WalkUp {
+    walk_up * 4
+}
+movement WalkUp1 {
+    walk_up * 5    
+}
+movement Leaving {
+    walk_left * 7  
+}
+movement TurnLeft {
+    face_left   
+}
+
+movement StopPlayer {
+    walk_left
+    
+}
