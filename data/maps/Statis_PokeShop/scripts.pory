@@ -1,0 +1,31 @@
+mapscripts Statis_PokeShop_MapScripts {
+    
+}
+
+script Statis_Mart_Employee {
+
+    lock
+    faceplayer
+    message("Bonjour!\nQue souhaitez-vous faire?")
+    waitmessage
+    pokemart(Statis_PokeShop_MartItems)
+    message("Revenez nous voir dès que possible!")
+    release
+    end
+    
+}
+
+mart Statis_PokeShop_MartItems {
+
+    ITEM_POTION
+    ITEM_POKE_BALL
+    ITEM_ANTIDOTE
+    ITEM_PARALYZE_HEAL
+    ITEM_AWAKENING
+    ITEM_MASTER_BALL
+    ITEM_RARE_CANDY
+    ITEM_LEMONADE
+    ITEM_BERRY_JUICE
+    ITEM_NONE
+    
+}

@@ -1,0 +1,360 @@
+mapscripts LaboProf_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: LaboProf_EventScript_BallDefault
+}
+ 
+script LaboProf_EventScript_BallDefault{
+    setvar(STARTER_REGION, 0)
+    setvar(VAR_DIFFICULTY, 0)
+}
+ 
+script Start_StarterChoose_Sequence{
+    lock
+    applymovement(OBJ_EVENT_ID_PLAYER, MeetBirch)
+    waitmovement(0)
+    msgbox(BeginAdventureText)
+    waitmessage
+    closemessage
+    applymovement(4, ProfMove)
+    waitmovement(0)
+    setvar(CHARLOTCITY_STATE, 1)
+    release
+}
+ 
+script Start_StarterChoose_Sequence2{
+    lock
+    applymovement(OBJ_EVENT_ID_PLAYER, MeetBirch2)
+    waitmovement(0)
+    goto(Start_StarterChoose_Sequence)
+}
+ 
+movement MeetBirch{
+    walk_up * 2
+} 
+movement MeetBirch2{
+    walk_left
+} 
+movement ProfMove{
+    walk_up
+    walk_right * 2
+    walk_up
+    face_down
+}
+ 
+ 
+ 
+text BeginAdventureText{
+    "{COLOR RED}{SHADOW LIGHT_RED}Birch:{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} Salut {PLAYER}, je suis le Prof Birch\n"
+    "Ceci est mon labo.\p"
+    "Aujourd'hui est le jour où tu vas recevoir\n"
+    "ton premier Pokemon.\p"
+    "{COLOR GREEN}{SHADOW LIGHT_GREEN}Maintenant choisi judicieusement,\n"
+    "{COLOR BLUE}{SHADOW LIGHT_BLUE}Si tu veux voir plus d'option\l"
+    "viens me parler.\n"
+}
+ 
+ 
+script StopLeaving {
+	lockall
+	msgbox("Vous devez choisir un Pokemon.")
+	applymovement(OBJ_EVENT_ID_PLAYER, DoNotLeave)
+	waitmovement(0)
+	releaseall
+}
+ 
+movement DoNotLeave{
+    walk_up
+}
+
+ 
+script LaboProf_EventScript_Birch{
+    if(!(flag(FLAG_SYS_POKEMON_GET))){
+        lock
+        faceplayer
+        message("Choisi la région de ton Starter.")
+        multichoice(25, 5, MULTI_STARTER_CHOICE, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(StarterFade)
+            setvar(STARTER_REGION, 2)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(StarterFade)
+            setvar(STARTER_REGION, 1)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(StarterFade)
+            setvar(STARTER_REGION, 0)
+        }
+        msgbox("Choisissez judicieusement votre Pokémon.")
+        waitmessage
+        release
+    }
+    else{
+        if(flag(FLAG_SYS_POKEDEX_GET) && !(flag(FLAG_SYS_NATIONAL_DEX))){
+            msgbox(format("Veux-tu améliore ton Pokédex en NationalDex?"), MSGBOX_YESNO)
+            if(var(VAR_RESULT) == YES){
+                call(UpgradeNationalDex)
+            }
+            else{
+                msgbox("Prenez soin de votre Pokémon", MSGBOX_NPC)
+            }
+        }
+        else{
+            msgbox("Prenez soin de votre Pokémon", MSGBOX_NPC)
+        }
+    }
+    end
+}
+ 
+script StarterFade{
+    fadescreen(FADE_TO_BLACK)
+    delay(20)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+ 
+script LaboProf_EventScript_PokeballOne{
+    lockall
+    setvar(VAR_TEMP_0, 1)
+    if(!(flag(FLAG_SYS_POKEMON_GET))){
+        if(var(STARTER_REGION) == 0){
+            bufferspeciesname(STR_VAR_1, SPECIES_MUDKIP)
+            setvar(STARTER_CHOICE, SPECIES_MUDKIP)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+        elif(var(STARTER_REGION) == 1){
+            bufferspeciesname(STR_VAR_1, SPECIES_TOTODILE)
+            setvar(STARTER_CHOICE, SPECIES_TOTODILE)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+        elif(var(STARTER_REGION) == 2){
+            bufferspeciesname(STR_VAR_1, SPECIES_SQUIRTLE)
+            setvar(STARTER_CHOICE, SPECIES_SQUIRTLE)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+    }
+    else{
+        msgbox("Vous ne pouvez en prendre qu'une.")
+    }
+    waitmessage
+    releaseall
+    end
+}
+ 
+script LaboProf_EventScript_PokeballTwo{
+    lockall
+    setvar(VAR_TEMP_0, 2)
+    if(!(flag(FLAG_SYS_POKEMON_GET))){
+        if(var(STARTER_REGION) == 0){
+            bufferspeciesname(STR_VAR_1, SPECIES_TREECKO)
+            setvar(STARTER_CHOICE, SPECIES_TREECKO)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+        elif(var(STARTER_REGION) == 1){
+            bufferspeciesname(STR_VAR_1, SPECIES_CHIKORITA)
+            setvar(STARTER_CHOICE, SPECIES_CHIKORITA)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+        elif(var(STARTER_REGION) == 2){
+            bufferspeciesname(STR_VAR_1, SPECIES_BULBASAUR)
+            setvar(STARTER_CHOICE, SPECIES_BULBASAUR)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+    }
+    else{
+        msgbox("Vous ne pouvez en prendre qu'une.")
+    }
+    waitmessage
+    releaseall
+    end
+}
+ 
+script LaboProf_EventScript_PokeballThree{
+    lockall
+    setvar(VAR_TEMP_0, 3)
+    if(!(flag(FLAG_SYS_POKEMON_GET))){
+        if(var(STARTER_REGION) == 0){
+            bufferspeciesname(STR_VAR_1, SPECIES_TORCHIC)
+            setvar(STARTER_CHOICE, SPECIES_TORCHIC)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+        elif(var(STARTER_REGION) == 1){
+            bufferspeciesname(STR_VAR_1, SPECIES_CYNDAQUIL)
+            setvar(STARTER_CHOICE, SPECIES_CYNDAQUIL)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+        elif(var(STARTER_REGION) == 2){
+            bufferspeciesname(STR_VAR_1, SPECIES_CHARMANDER)
+            setvar(STARTER_CHOICE, SPECIES_CHARMANDER)
+            call(LaboProf_EventScript_GiveStarter)
+        }
+    }
+    else{
+        msgbox("Vous ne pouvez en prendre qu'une.")
+    }
+    waitmessage
+    releaseall
+    end
+}
+ 
+ 
+script LaboProf_EventScript_GiveStarter{
+    showmonpic(STARTER_CHOICE, 10, 3)
+    msgbox("Voulez vous choisir {STR_VAR_1}?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        setflag(FLAG_SYS_POKEMON_GET)
+        setvar(CHARLOTCITY_STATE, 2)
+        givemon(STARTER_CHOICE, 5, ITEM_POKE_BALL)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Vous avez reçu {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Vous avez reçu {STR_VAR_1}")
+            removeobject(VAR_TEMP_0)
+            call(SetBallFlag)
+            call(NicknameBoxMon)
+            msgbox("{STR_VAR_1} a été transferré au PC.")
+        }
+        else{
+            hidemonpic
+            msgbox("Vous n'avez plus de place libre.")
+        }
+        closemessage
+        call(InitiatePokedexSequence)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+ 
+ 
+script SetBallFlag{
+    if (var(VAR_TEMP_0) == 1){
+        setflag(STARTER_BALL_ONE)
+        return
+    }
+    if (var(VAR_TEMP_0) == 2){
+        setflag(STARTER_BALL_TWO)
+        return
+    }
+    if (var(VAR_TEMP_0) == 3){
+        setflag(STARTER_BALL_THREE)
+        return
+    }
+}
+ 
+script NicknamePartyMon{
+    msgbox("Voulez vous donner un surnom?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+ 
+ 
+}
+ 
+script NicknameBoxMon{
+    msgbox("Voulez vous donner un surnom?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+}
+ 
+text NewProfessor_NotChosen{
+    "Vous n'avez pas choisi {STR_VAR_1}."
+}
+
+script InitiatePokedexSequence {
+	lock
+    delay(20)
+    applymovement(OBJ_EVENT_ID_PLAYER, TurnToProf)
+    if(var(VAR_TEMP_0) == 1){
+        applymovement(4, MoveBallOne)
+    }
+    if(var(VAR_TEMP_0) == 2){
+        applymovement(4, MoveBallTwo)
+    }
+    if(var(VAR_TEMP_0) == 3){
+        applymovement(4, MoveBallThree)
+    }    
+	waitmovement(0)
+    delay(20)
+    call(GivePokedex)
+	release
+    return
+}
+ 
+script GivePokedex {
+    lock
+    msgbox(TakePokedex, MSGBOX_DEFAULT)
+    playfanfare(MUS_OBTAIN_ITEM)
+	message("{PLAYER} a reçu le POKéDEX!$")
+	waitfanfare
+    closemessage
+	setflag(FLAG_SYS_POKEDEX_GET)
+    setflag(FLAG_ADVENTURE_STARTED)
+	special(SetUnlockedPokedexFlags)
+	setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+	setvar(VAR_CABLE_CLUB_TUTORIAL_STATE, 1)
+    msgbox(LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT)
+    msgbox("Aussi prends ça avec toi!", MSGBOX_DEFAULT)
+    giveitem(ITEM_POKE_BALL, 5)
+    msgbox(format("Ceux-ci te permet d'attraper tes propre Pokémon dans les hautes herbes afin que tu puisses collecter tout le Pokedex."), MSGBOX_DEFAULT)
+    waitmessage
+    release
+	return
+}
+ 
+script UpgradeNationalDex{
+    lock
+    playfanfare(MUS_OBTAIN_ITEM)
+	message(LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational)
+	waitmessage
+	waitfanfare
+	setflag(FLAG_SYS_NATIONAL_DEX)
+	special(EnableNationalPokedex)
+    closemessage
+    release
+    return
+}
+ 
+movement MoveBallOne{
+    walk_left * 2
+}
+movement MoveBallTwo{
+    walk_left * 1
+}
+movement MoveBallThree{
+    face_left
+}
+movement TurnToProf{
+    face_right
+}
+ 
+text TakePokedex{
+    "Hey! {PLAYER}, J'ai commandé ceci pour mes\n"
+	"recherches, mais je pense que tu devrais\l"
+	"avoir ce POKéDEX."
+}
+ 
+ 
+script DontTouchThat {
+	lockall
+	msgbox("NE TOUCHE PAS A ÇA!")
+	applymovement(OBJ_EVENT_ID_PLAYER, MoveAwayFromThere)
+	waitmovement(0)
+	releaseall
+}
+ 
+movement MoveAwayFromThere{
+    walk_left * 2
+}

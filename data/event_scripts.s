@@ -1066,8 +1066,26 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/Route201/scripts.inc"
 
-	.include "data/maps/NewMap1/scripts.inc"
-
 	.include "data/maps/StatisTown/scripts.inc"
 
 	.include "data/maps/Route202/scripts.inc"
+
+	.include "data/maps/LaboProf/scripts.inc"
+
+	.include "data/maps/Statis_PokeShop/scripts.inc"
+
+	.include "data/maps/Statis_PokeCenter/scripts.inc"
+
+	.include "data/maps/Statis_PokeCenter_Up/scripts.inc"
+
+	.include "data/maps/Statis_Maison1/scripts.inc"
+
+	.include "data/maps/Statis_Maison1_Up/scripts.inc"
+
+	.include "data/maps/Statis_Maison2/scripts.inc"
+
+	.include "data/maps/Statis_Maison2_Up/scripts.inc"
+
+	.include "data/maps/ChartlotCity_Maison1/scripts.inc"
+
+	.include "data/maps/CharlotCity_Maison2/scripts.inc"

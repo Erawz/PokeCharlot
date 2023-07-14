@@ -37,28 +37,28 @@
       "x": 15,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_STATIS_TOWN",
+      "dest_map": "MAP_STATIS_POKE_SHOP",
       "dest_warp_id": "0"
     },
     {
       "x": 4,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_STATIS_TOWN",
+      "dest_map": "MAP_STATIS_POKE_CENTER",
       "dest_warp_id": "0"
     },
     {
       "x": 17,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_STATIS_TOWN",
+      "dest_map": "MAP_STATIS_MAISON1",
       "dest_warp_id": "0"
     },
     {
       "x": 5,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_STATIS_TOWN",
+      "dest_map": "MAP_STATIS_MAISON2",
       "dest_warp_id": "0"
     }
   ],
@@ -72,7 +72,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "StatisTown_NewSign1"
     },
     {
       "type": "sign",
@@ -80,7 +80,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "StatisTown_PokeCenterSign"
     },
     {
       "type": "sign",
@@ -88,7 +88,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "StatisTown_PokeCenterSign"
     },
     {
       "type": "sign",
@@ -96,7 +96,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "StatisTown_PokeShopSign"
     },
     {
       "type": "sign",
@@ -104,7 +104,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "StatisTown_PokeShopSign"
     }
   ]
 }

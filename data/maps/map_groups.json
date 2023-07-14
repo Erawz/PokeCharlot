@@ -631,9 +631,17 @@
     "Route202"
   ],
   "gMapGroup_IndoorCharlotCity": [
-
+    "LaboProf",
+    "ChartlotCity_Maison1",
+    "CharlotCity_Maison2"
   ],
   "gMapGroup_IndorStatis": [
-
+    "Statis_PokeShop",
+    "Statis_PokeCenter",
+    "Statis_PokeCenter_Up",
+    "Statis_Maison1",
+    "Statis_Maison1_Up",
+    "Statis_Maison2",
+    "Statis_Maison2_Up"
   ]
 }

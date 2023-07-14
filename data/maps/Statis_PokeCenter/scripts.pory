@@ -1,0 +1,39 @@
+mapscripts Statis_PokeCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: Statis_PokeCenter_OnTransition
+    MAP_SCRIPT_ON_RESUME: CableClub_OnResume
+    
+}
+
+script Statis_PokeCenter_OnTransition {
+    setrespawn(HEAL_LOCATION_STATIS_TOWN)
+    end
+    
+}
+
+script Statis_PokeCenter_Employee_Simple {
+    setvar(VAR_0x800B, 1)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+    waitbuttonpress
+    release
+    end
+    
+}
+
+script Statis_PokeCenter_Employee {
+    lock
+    faceplayer
+    msgbox("Souaitez vous soigner vos Pokémons?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        incrementgamestat(GAME_STAT_USED_POKECENTER)
+        special(HealPlayerParty)
+        msgbox("Revenez quand vous voulez!")
+        waitmessage
+        release
+        end
+    }
+    else{
+        msgbox("Passez une bonne journée.", MSGBOX_NPC)
+    }
+    
+}

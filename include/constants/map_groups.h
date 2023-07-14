@@ -598,8 +598,18 @@
 #define MAP_ROUTE202     (3 | (34 << 8))
 
 // gMapGroup_IndoorCharlotCity
+#define MAP_LABO_PROF             (0 | (35 << 8))
+#define MAP_CHARTLOT_CITY_MAISON1 (1 | (35 << 8))
+#define MAP_CHARLOT_CITY_MAISON2  (2 | (35 << 8))
 
 // gMapGroup_IndorStatis
+#define MAP_STATIS_POKE_SHOP      (0 | (36 << 8))
+#define MAP_STATIS_POKE_CENTER    (1 | (36 << 8))
+#define MAP_STATIS_POKE_CENTER_UP (2 | (36 << 8))
+#define MAP_STATIS_MAISON1        (3 | (36 << 8))
+#define MAP_STATIS_MAISON1_UP     (4 | (36 << 8))
+#define MAP_STATIS_MAISON2        (5 | (36 << 8))
+#define MAP_STATIS_MAISON2_UP     (6 | (36 << 8))
 
 #define MAP_GROUPS_COUNT 37
 

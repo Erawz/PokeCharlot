@@ -4432,16 +4432,6 @@
       "blockdata_filepath": "data/layouts/Route201/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_MAP1",
-      "name": "NewMap1_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/NewMap1/border.bin",
-      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
-    },
-    {
       "id": "LAYOUT_STATIS_TOWN",
       "name": "StatisTown_Layout",
       "width": 20,
@@ -4460,6 +4450,106 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route202/border.bin",
       "blockdata_filepath": "data/layouts/Route202/map.bin"
+    },
+    {
+      "id": "LAYOUT_LABO_PROF",
+      "name": "LaboProf_Layout",
+      "width": 13,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/LaboProf/border.bin",
+      "blockdata_filepath": "data/layouts/LaboProf/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_POKE_SHOP",
+      "name": "Statis_PokeShop_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/Statis_PokeShop/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_PokeShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_POKE_CENTER",
+      "name": "Statis_PokeCenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Statis_PokeCenter/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_PokeCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_POKE_CENTER_UP",
+      "name": "Statis_PokeCenter_Up_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Statis_PokeCenter_Up/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_PokeCenter_Up/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_MAISON1",
+      "name": "Statis_Maison1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Statis_Maison1/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_Maison1/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_MAISON1_UP",
+      "name": "Statis_Maison1_Up_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Statis_Maison1_Up/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_Maison1_Up/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_MAISON2",
+      "name": "Statis_Maison2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Statis_Maison2/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_Maison2/map.bin"
+    },
+    {
+      "id": "LAYOUT_STATIS_MAISON2_UP",
+      "name": "Statis_Maison2_Up_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Statis_Maison2_Up/border.bin",
+      "blockdata_filepath": "data/layouts/Statis_Maison2_Up/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHARTLOT_CITY_MAISON1",
+      "name": "ChartlotCity_Maison1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/ChartlotCity_Maison1/border.bin",
+      "blockdata_filepath": "data/layouts/ChartlotCity_Maison1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHARLOT_CITY_MAISON2",
+      "name": "CharlotCity_Maison2_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/CharlotCity_Maison2/border.bin",
+      "blockdata_filepath": "data/layouts/CharlotCity_Maison2/map.bin"
     }
   ]
 }
