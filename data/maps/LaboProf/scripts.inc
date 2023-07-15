@@ -61,6 +61,62 @@ DoNotLeave:
 	walk_up
 	step_end
 
+LaboProf_EventScript_Difficulty::
+	lock
+	faceplayer
+	message LaboProf_EventScript_Difficulty_Text_0
+	multichoice 25, 5, MULTI_TAG_DIFFICULTY, 0
+	closemessage
+	compare VAR_RESULT, 0
+	goto_if_eq LaboProf_EventScript_Difficulty_2
+	compare VAR_RESULT, 1
+	goto_if_eq LaboProf_EventScript_Difficulty_3
+	compare VAR_RESULT, 2
+	goto_if_eq LaboProf_EventScript_Difficulty_4
+LaboProf_EventScript_Difficulty_1:
+	compare VAR_DIFFICULTY, 0
+	goto_if_eq LaboProf_EventScript_Difficulty_9
+LaboProf_EventScript_Difficulty_8:
+	compare VAR_DIFFICULTY, 1
+	goto_if_eq LaboProf_EventScript_Difficulty_12
+LaboProf_EventScript_Difficulty_11:
+	compare VAR_DIFFICULTY, 2
+	goto_if_eq LaboProf_EventScript_Difficulty_15
+LaboProf_EventScript_Difficulty_14:
+	release
+	return
+
+LaboProf_EventScript_Difficulty_2:
+	call StarterFade
+	setvar VAR_DIFFICULTY, 2
+	goto LaboProf_EventScript_Difficulty_1
+
+LaboProf_EventScript_Difficulty_3:
+	call StarterFade
+	setvar VAR_DIFFICULTY, 0
+	goto LaboProf_EventScript_Difficulty_1
+
+LaboProf_EventScript_Difficulty_4:
+	call StarterFade
+	setvar VAR_DIFFICULTY, 1
+	goto LaboProf_EventScript_Difficulty_1
+
+LaboProf_EventScript_Difficulty_9:
+	msgbox LaboProf_EventScript_Difficulty_Text_1
+	waitmessage
+	goto LaboProf_EventScript_Difficulty_8
+
+LaboProf_EventScript_Difficulty_12:
+	msgbox LaboProf_EventScript_Difficulty_Text_2
+	waitmessage
+	goto LaboProf_EventScript_Difficulty_11
+
+LaboProf_EventScript_Difficulty_15:
+	msgbox LaboProf_EventScript_Difficulty_Text_3
+	waitmessage
+	goto LaboProf_EventScript_Difficulty_14
+
+
 LaboProf_EventScript_Birch::
 	goto_if_unset FLAG_SYS_POKEMON_GET, LaboProf_EventScript_Birch_2
 	goto_if_set FLAG_SYS_POKEDEX_GET, LaboProf_EventScript_Birch_14
@@ -427,6 +483,18 @@ MoveAwayFromThere:
 
 StopLeaving_Text_0:
 	.string "Vous devez choisir un Pokemon.$"
+
+LaboProf_EventScript_Difficulty_Text_0:
+	.string "Vous pouvez choisir la difficulté.$"
+
+LaboProf_EventScript_Difficulty_Text_1:
+	.string "Vous avez choisi la difficulté : {COLOR BLUE}{SHADOW LIGHT_BLUE}NORMAL$"
+
+LaboProf_EventScript_Difficulty_Text_2:
+	.string "Vous avez choisi la difficulté : {COLOR RED}{SHADOW LIGHT_RED}HARD$"
+
+LaboProf_EventScript_Difficulty_Text_3:
+	.string "Vous avez choisi la difficulté : {COLOR GREEN}{SHADOW LIGHT_GREEN}EASY$"
 
 LaboProf_EventScript_Birch_Text_0:
 	.string "Choisi la région de ton Starter.$"

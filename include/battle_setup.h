@@ -50,6 +50,7 @@ void ClearTrainerFlag(u16 trainerId);
 void BattleSetup_StartTrainerBattle(void);
 void BattleSetup_StartRematchBattle(void);
 void ShowTrainerIntroSpeech(void);
+u8 GetScaledLevel(u8 lvl);
 const u8 *BattleSetup_GetScriptAddrAfterBattle(void);
 const u8 *BattleSetup_GetTrainerPostBattleScript(void);
 void ShowTrainerCantBattleSpeech(void);
@@ -67,5 +68,6 @@ bool8 ShouldTryRematchBattle(void);
 bool8 IsTrainerReadyForRematch(void);
 void ShouldTryGetTrainerScript(void);
 u16 CountBattledRematchTeams(u16 trainerId);
+bool8 levelCapped(u8 level);
 
 #endif // GUARD_BATTLE_SETUP_H

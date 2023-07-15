@@ -65,7 +65,40 @@ movement DoNotLeave{
     walk_up
 }
 
- 
+script LaboProf_EventScript_Difficulty{
+        lock
+        faceplayer
+        message("Vous pouvez choisir la difficulté.")
+        multichoice(25, 5, MULTI_TAG_DIFFICULTY, 0)
+        closemessage
+        if (var(VAR_RESULT) == 0){
+            call(StarterFade)
+            setvar(VAR_DIFFICULTY, 2)
+        }
+        elif (var(VAR_RESULT) == 1){
+            call(StarterFade)
+            setvar(VAR_DIFFICULTY, 0)
+        }
+        elif (var(VAR_RESULT) == 2){
+            call(StarterFade)
+            setvar(VAR_DIFFICULTY, 1)
+        }
+        if (var(VAR_DIFFICULTY) == 0){
+            msgbox("Vous avez choisi la difficulté : {COLOR BLUE}{SHADOW LIGHT_BLUE}NORMAL")
+            waitmessage
+        }
+        if (var(VAR_DIFFICULTY) == 1){
+            msgbox("Vous avez choisi la difficulté : {COLOR RED}{SHADOW LIGHT_RED}HARD")
+            waitmessage
+        }
+        if (var(VAR_DIFFICULTY) == 2){
+            msgbox("Vous avez choisi la difficulté : {COLOR GREEN}{SHADOW LIGHT_GREEN}EASY")
+            waitmessage
+        }
+        release
+}
+
+
 script LaboProf_EventScript_Birch{
     if(!(flag(FLAG_SYS_POKEMON_GET))){
         lock

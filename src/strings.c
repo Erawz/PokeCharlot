@@ -1835,3 +1835,6 @@ const u8 gText_Berries[] = _("BERRIES");
 const u8 gText_JohtoStarter[] = _("JOHTO");
 const u8 gText_HoeenStarter[] = _("HOEEN");
 const u8 gText_KantoStarter[] = _("KANTO");
+const u8 gText_Easy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}EASY");
+const u8 gText_NormalDifficulty[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}NORMAL");
+const u8 gText_Hard[] = _("{COLOR RED}{SHADOW LIGHT_RED}HARD");

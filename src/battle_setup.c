@@ -771,7 +771,7 @@ static u8 GetSumOfEnemyPartyLevel(u16 opponentId, u8 numMons)
             const struct TrainerMonNoItemDefaultMoves *party;
             party = gTrainers[opponentId].party.NoItemDefaultMoves;
             for (i = 0; i < count; i++)
-                sum += party[i].lvl;
+                sum += GetScaledLevel(party[i].lvl);
         }
         break;
     case F_TRAINER_PARTY_CUSTOM_MOVESET:
@@ -779,7 +779,7 @@ static u8 GetSumOfEnemyPartyLevel(u16 opponentId, u8 numMons)
             const struct TrainerMonNoItemCustomMoves *party;
             party = gTrainers[opponentId].party.NoItemCustomMoves;
             for (i = 0; i < count; i++)
-                sum += party[i].lvl;
+                sum += GetScaledLevel(party[i].lvl);
         }
         break;
     case F_TRAINER_PARTY_HELD_ITEM:
@@ -787,7 +787,7 @@ static u8 GetSumOfEnemyPartyLevel(u16 opponentId, u8 numMons)
             const struct TrainerMonItemDefaultMoves *party;
             party = gTrainers[opponentId].party.ItemDefaultMoves;
             for (i = 0; i < count; i++)
-                sum += party[i].lvl;
+                sum += GetScaledLevel(party[i].lvl);
         }
         break;
     case F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM:
@@ -795,7 +795,7 @@ static u8 GetSumOfEnemyPartyLevel(u16 opponentId, u8 numMons)
             const struct TrainerMonItemCustomMoves *party;
             party = gTrainers[opponentId].party.ItemCustomMoves;
             for (i = 0; i < count; i++)
-                sum += party[i].lvl;
+                sum += GetScaledLevel(party[i].lvl);
         }
         break;
     case F_TRAINER_PARTY_EVERYTHING_CUSTOMIZED:
@@ -803,12 +803,46 @@ static u8 GetSumOfEnemyPartyLevel(u16 opponentId, u8 numMons)
             const struct TrainerMonCustomized *party;
             party = gTrainers[opponentId].party.EverythingCustomized;
             for (i = 0; i < count; i++)
-                sum += party[i].lvl;
+                sum += GetScaledLevel(party[i].lvl);
         }
         break;
     }
 
     return sum;
+}
+
+u8 GetScaledLevel(u8 lvl)
+{
+    u8 badgeCount = 0;
+    u8 levelScaling = 0;
+    u32 i;
+    for (i = FLAG_BADGE01_GET; i < FLAG_BADGE01_GET + NUM_BADGES; i++)
+    {
+        if (FlagGet(i))
+            badgeCount++;
+    }
+
+    if (FlagGet(FLAG_IS_CHAMPION))
+        levelScaling = 5;
+    else if (badgeCount >= 6)
+        levelScaling = 4;
+    else if (badgeCount >= 4)
+        levelScaling = 3;
+    else if (badgeCount >= 2)
+        levelScaling = 2;
+    else
+        levelScaling = 1;
+
+    if (VarGet(VAR_DIFFICULTY) == DIFFICULTY_HARD)
+        lvl += levelScaling;
+    else if (VarGet(VAR_DIFFICULTY) == DIFFICULTY_EASY)
+        lvl -= levelScaling;
+
+    if (lvl > 100)
+        lvl = 100;
+    if (lvl < 1)
+        lvl = 1;
+    return lvl;
 }
 
 u8 GetWildBattleTransition(void)
@@ -1911,4 +1945,37 @@ u16 CountBattledRematchTeams(u16 trainerId)
     }
 
     return i;
+}
+
+bool8 levelCapped(u8 level){
+    u8 levelCap = 0;
+    u16 nextLeader, i;
+    const struct TrainerMonItemCustomMoves *partyData;
+    if (!FlagGet(FLAG_BADGE01_GET))
+        nextLeader = TRAINER_ROXANNE_1;
+    else if (!FlagGet(FLAG_BADGE02_GET))
+        nextLeader = TRAINER_BRAWLY_1;
+    else if (!FlagGet(FLAG_BADGE03_GET))
+        nextLeader = TRAINER_WATTSON_1;
+    else if (!FlagGet(FLAG_BADGE04_GET))
+        nextLeader = TRAINER_FLANNERY_1;
+    else if (!FlagGet(FLAG_BADGE05_GET))
+        nextLeader = TRAINER_NORMAN_1;
+    else if (!FlagGet(FLAG_BADGE06_GET))
+        nextLeader = TRAINER_WINONA_1;
+    else if (!FlagGet(FLAG_BADGE07_GET))
+        nextLeader = TRAINER_TATE_AND_LIZA_1;
+    else if (!FlagGet(FLAG_BADGE08_GET))
+        nextLeader = TRAINER_JUAN_1;
+    else if (!FlagGet(FLAG_IS_CHAMPION))
+        nextLeader = TRAINER_WALLACE;
+
+    partyData = gTrainers[nextLeader].party.ItemCustomMoves;
+    for (i = 0; i < gTrainers[nextLeader].partySize; i++){
+        if (partyData[i].lvl > levelCap)
+            levelCap = partyData[i].lvl;
+    }
+    if (level >= levelCap)
+        return TRUE;
+    return FALSE;
 }

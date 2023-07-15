@@ -783,6 +783,13 @@ static const struct MenuAction MultichoiceList_Starters[] =
     {gText_HoeenStarter},
 };
 
+static const struct MenuAction MultichoiceList_TagChallenge[] =
+{
+    {gText_Easy},
+    {gText_NormalDifficulty},
+    {gText_Hard},
+};
+
 
 struct MultichoiceListStruct
 {
@@ -907,6 +914,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_STARTER_CHOICE]             = MULTICHOICE(MultichoiceList_Starters),
+    [MULTI_TAG_DIFFICULTY]             = MULTICHOICE(MultichoiceList_TagChallenge),
 };
 
 const u8 *const gStdStrings[] =

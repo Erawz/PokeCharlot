@@ -3029,6 +3029,9 @@ extern const u8 gText_Cancel3[];
 extern const u8 gText_JohtoStarter[];
 extern const u8 gText_HoeenStarter[];
 extern const u8 gText_KantoStarter[];
+extern const u8 gText_Easy[];
+extern const u8 gText_NormalDifficulty[];
+extern const u8 gText_Hard[];
 
 // Naming Screen
 extern const u8 gText_MoveOkBack[];
