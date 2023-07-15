@@ -7,17 +7,6 @@ mapscripts CharlotCity_MapScripts {
 
 }
 
-script CharlotCity_EventScript_Trigger {
-    if(!(flag(STARTER_BALL_ONE) || flag(STARTER_BALL_TWO) || flag(STARTER_BALL_THREE))) {
-        setvar(CHARLOTCITY_STATE, 0)
-    }
-    else{
-        if(var(CHARLOTCITY_STATE) == 0){
-        }
-    }
-    
-}
-
 script CharlotCity_Trigger_BlockPath {
     lockall
     msgbox("Tu n'as pas encore de pokémon!\nC'est dangereux d'y aller sans\pTu devrais aller voir\nle PROF dans son labo.", MSGBOX_DEFAULT)

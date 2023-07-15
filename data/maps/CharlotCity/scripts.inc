@@ -2,29 +2,6 @@ CharlotCity_MapScripts::
 	.byte 0
 
 
-CharlotCity_EventScript_Trigger::
-	goto_if_unset STARTER_BALL_ONE, CharlotCity_EventScript_Trigger_3
-CharlotCity_EventScript_Trigger_2:
-	compare CHARLOTCITY_STATE, 0
-	goto_if_eq CharlotCity_EventScript_Trigger_8
-	return
-
-CharlotCity_EventScript_Trigger_1:
-	setvar CHARLOTCITY_STATE, 0
-	return
-
-CharlotCity_EventScript_Trigger_3:
-	goto_if_unset STARTER_BALL_TWO, CharlotCity_EventScript_Trigger_5
-	goto CharlotCity_EventScript_Trigger_2
-
-CharlotCity_EventScript_Trigger_5:
-	goto_if_unset STARTER_BALL_THREE, CharlotCity_EventScript_Trigger_1
-	goto CharlotCity_EventScript_Trigger_2
-
-CharlotCity_EventScript_Trigger_8:
-	return
-
-
 CharlotCity_Trigger_BlockPath::
 	lockall
 	msgbox CharlotCity_Trigger_BlockPath_Text_0, MSGBOX_DEFAULT

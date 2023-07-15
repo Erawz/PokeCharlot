@@ -133,6 +133,13 @@
       "elevation": 0,
       "dest_map": "MAP_LABO_PROF",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY",
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [
