@@ -3,9 +3,9 @@ static const u8 sDummyDesc[] = _(
 
 // Poké Balls
 static const u8 sPokeBallDesc[] = _(
-    "A tool used for\n"
-    "catching wild\n"
-    "Pokémon.");
+    "Un objet qui permet\n"
+    "d'attraper les\n"
+    "Pokémon sauvages.");
 
 static const u8 sGreatBallDesc[] = _(
     "A good Ball with a\n"

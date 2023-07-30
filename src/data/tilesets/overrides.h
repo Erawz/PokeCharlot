@@ -2,6 +2,8 @@ static const u16 sTilesetPalOverride_General01_05[] = INCBIN_U16("data/tilesets/
 
 static const u16 sTilesetPalOverride_Petalburg06_08[] = INCBIN_U16("data/tilesets/secondary/petalburg/override_palettes/06_08.gbapal");
 
+static const u16 sTilesetPalOverride_Rustboro06_08[] = INCBIN_U16("data/tilesets/secondary/rustboro/override_palettes/06_08.gbapal");
+
 #define OVERRIDES_END { .slot = 0xFF, }
 
 const struct PaletteOverride gTilesetPalOverrides_General[] =
@@ -34,6 +36,23 @@ const struct PaletteOverride gTilesetPalOverrides_Petalburg[] =
         .startHour = HOUR_NIGHT,
         .endHour = HOUR_MORNING,
         .palette = sTilesetPalOverride_Petalburg06_08,
+    },
+    OVERRIDES_END
+};
+
+const struct PaletteOverride gTilesetPalOverride_Rustboro06_08[] =
+{
+    {
+        .slot = 6,
+        .startHour = HOUR_NIGHT,
+        .endHour = HOUR_MORNING,
+        .palette = sTilesetPalOverride_Rustboro06_08,
+    },
+    {
+        .slot = 8,
+        .startHour = HOUR_NIGHT,
+        .endHour = HOUR_MORNING,
+        .palette = sTilesetPalOverride_Rustboro06_08,
     },
     OVERRIDES_END
 };

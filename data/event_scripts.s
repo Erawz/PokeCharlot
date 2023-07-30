@@ -1090,3 +1090,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/ChartlotCity_Maison1/scripts.inc"
 
 	.include "data/maps/CharlotCity_Maison2/scripts.inc"
+
+	.include "data/maps/PorytilesTestMap/scripts.inc"
