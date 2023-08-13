@@ -216,3 +216,6 @@ const u16 gMetatileAttributes_test[] = INCBIN_U16("data/tilesets/secondary/test/
 
 const u16 gMetatiles_PorytilesTest[] = INCBIN_U16("data/tilesets/primary/porytiles_test/metatiles.bin");
 const u16 gMetatileAttributes_PorytilesTest[] = INCBIN_U16("data/tilesets/primary/porytiles_test/metatile_attributes.bin");
+
+const u16 gMetatiles_gTileset_CharlotGeneral[] = INCBIN_U16("data/tilesets/primary/charlot_general/metatiles.bin");
+const u16 gMetatileAttributes_gTileset_CharlotGeneral[] = INCBIN_U16("data/tilesets/primary/charlot_general/metatile_attributes.bin");
