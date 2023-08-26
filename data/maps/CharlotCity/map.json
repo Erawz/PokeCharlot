@@ -138,8 +138,8 @@
       "x": 7,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_RUSTBORO_CITY",
-      "dest_warp_id": "7"
+      "dest_map": "MAP_PORY_TEST_MAP",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

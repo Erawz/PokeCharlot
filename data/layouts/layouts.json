@@ -386,7 +386,7 @@
       "name": "Route123_Layout",
       "width": 140,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_CharlotGeneral",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route123/border.bin",
       "blockdata_filepath": "data/layouts/Route123/map.bin"
@@ -4560,6 +4560,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/PorytilesTestMap/border.bin",
       "blockdata_filepath": "data/layouts/PorytilesTestMap/map.bin"
+    },
+    {
+      "id": "LAYOUT_PORY_TEST_MAP",
+      "name": "PoryTestMap_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_PorytilesPrimaryTest",
+      "secondary_tileset": "gTileset_PorytilesSecondaryTest",
+      "border_filepath": "data/layouts/PoryTestMap/border.bin",
+      "blockdata_filepath": "data/layouts/PoryTestMap/map.bin"
     }
   ]
 }

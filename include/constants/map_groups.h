@@ -593,10 +593,11 @@
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
 // gMapGroup_CharlotTownAndRoutes
-#define MAP_CHARLOT_CITY (0 | (34 << 8))
-#define MAP_STATIS_TOWN  (1 | (34 << 8))
-#define MAP_ROUTE201     (2 | (34 << 8))
-#define MAP_ROUTE202     (3 | (34 << 8))
+#define MAP_CHARLOT_CITY  (0 | (34 << 8))
+#define MAP_STATIS_TOWN   (1 | (34 << 8))
+#define MAP_ROUTE201      (2 | (34 << 8))
+#define MAP_ROUTE202      (3 | (34 << 8))
+#define MAP_PORY_TEST_MAP (4 | (34 << 8))
 
 // gMapGroup_IndoorCharlotCity
 #define MAP_LABO_PROF             (0 | (35 << 8))
