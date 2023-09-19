@@ -22,11 +22,6 @@
       "map": "MAP_CHARLOT_CITY",
       "offset": 0,
       "direction": "left"
-    },
-    {
-      "map": "MAP_CHARLOT_CITY",
-      "offset": 0,
-      "direction": "left"
     }
   ],
   "object_events": [

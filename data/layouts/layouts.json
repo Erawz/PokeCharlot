@@ -4566,7 +4566,7 @@
       "name": "PoryTestMap_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_PorytilesPrimaryTest",
+      "primary_tileset": "gTileset_gTileset_CharlotGeneral",
       "secondary_tileset": "gTileset_PorytilesSecondaryTest",
       "border_filepath": "data/layouts/PoryTestMap/border.bin",
       "blockdata_filepath": "data/layouts/PoryTestMap/map.bin"
