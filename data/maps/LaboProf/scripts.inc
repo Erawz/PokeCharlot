@@ -4,7 +4,7 @@ LaboProf_MapScripts::
 
 
 LaboProf_EventScript_BallDefault::
-	setvar STARTER_REGION, 0
+	setvar VAR_STARTER_REGION, 0
 	setvar VAR_DIFFICULTY, 0
 	return
 
@@ -18,7 +18,7 @@ Start_StarterChoose_Sequence::
 	closemessage
 	applymovement 4, ProfMove
 	waitmovement 0
-	setvar CHARLOTCITY_STATE, 1
+	setvar VAR_CHARLOTCITY_STATE, 1
 	release
 	return
 
@@ -145,17 +145,17 @@ LaboProf_EventScript_Birch_5:
 
 LaboProf_EventScript_Birch_6:
 	call StarterFade
-	setvar STARTER_REGION, 2
+	setvar VAR_STARTER_REGION, 2
 	goto LaboProf_EventScript_Birch_5
 
 LaboProf_EventScript_Birch_7:
 	call StarterFade
-	setvar STARTER_REGION, 1
+	setvar VAR_STARTER_REGION, 1
 	goto LaboProf_EventScript_Birch_5
 
 LaboProf_EventScript_Birch_8:
 	call StarterFade
-	setvar STARTER_REGION, 0
+	setvar VAR_STARTER_REGION, 0
 	goto LaboProf_EventScript_Birch_5
 
 LaboProf_EventScript_Birch_12:
@@ -192,29 +192,29 @@ LaboProf_EventScript_PokeballOne_1:
 	end
 
 LaboProf_EventScript_PokeballOne_2:
-	compare STARTER_REGION, 0
+	compare VAR_STARTER_REGION, 0
 	goto_if_eq LaboProf_EventScript_PokeballOne_5
-	compare STARTER_REGION, 1
+	compare VAR_STARTER_REGION, 1
 	goto_if_eq LaboProf_EventScript_PokeballOne_6
-	compare STARTER_REGION, 2
+	compare VAR_STARTER_REGION, 2
 	goto_if_eq LaboProf_EventScript_PokeballOne_7
 	goto LaboProf_EventScript_PokeballOne_1
 
 LaboProf_EventScript_PokeballOne_5:
 	bufferspeciesname STR_VAR_1, SPECIES_MUDKIP
-	setvar STARTER_CHOICE, SPECIES_MUDKIP
+	setvar VAR_STARTER_REGION, SPECIES_MUDKIP
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballOne_1
 
 LaboProf_EventScript_PokeballOne_6:
 	bufferspeciesname STR_VAR_1, SPECIES_TOTODILE
-	setvar STARTER_CHOICE, SPECIES_TOTODILE
+	setvar VAR_STARTER_REGION, SPECIES_TOTODILE
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballOne_1
 
 LaboProf_EventScript_PokeballOne_7:
 	bufferspeciesname STR_VAR_1, SPECIES_SQUIRTLE
-	setvar STARTER_CHOICE, SPECIES_SQUIRTLE
+	setvar VAR_STARTER_REGION, SPECIES_SQUIRTLE
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballOne_1
 
@@ -230,29 +230,29 @@ LaboProf_EventScript_PokeballTwo_1:
 	end
 
 LaboProf_EventScript_PokeballTwo_2:
-	compare STARTER_REGION, 0
+	compare VAR_STARTER_REGION, 0
 	goto_if_eq LaboProf_EventScript_PokeballTwo_5
-	compare STARTER_REGION, 1
+	compare VAR_STARTER_REGION, 1
 	goto_if_eq LaboProf_EventScript_PokeballTwo_6
-	compare STARTER_REGION, 2
+	compare VAR_STARTER_REGION, 2
 	goto_if_eq LaboProf_EventScript_PokeballTwo_7
 	goto LaboProf_EventScript_PokeballTwo_1
 
 LaboProf_EventScript_PokeballTwo_5:
 	bufferspeciesname STR_VAR_1, SPECIES_TREECKO
-	setvar STARTER_CHOICE, SPECIES_TREECKO
+	setvar VAR_STARTER_REGION, SPECIES_TREECKO
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballTwo_1
 
 LaboProf_EventScript_PokeballTwo_6:
 	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
-	setvar STARTER_CHOICE, SPECIES_CHIKORITA
+	setvar VAR_STARTER_REGION, SPECIES_CHIKORITA
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballTwo_1
 
 LaboProf_EventScript_PokeballTwo_7:
 	bufferspeciesname STR_VAR_1, SPECIES_BULBASAUR
-	setvar STARTER_CHOICE, SPECIES_BULBASAUR
+	setvar VAR_STARTER_REGION, SPECIES_BULBASAUR
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballTwo_1
 
@@ -268,35 +268,35 @@ LaboProf_EventScript_PokeballThree_1:
 	end
 
 LaboProf_EventScript_PokeballThree_2:
-	compare STARTER_REGION, 0
+	compare VAR_STARTER_REGION, 0
 	goto_if_eq LaboProf_EventScript_PokeballThree_5
-	compare STARTER_REGION, 1
+	compare VAR_STARTER_REGION, 1
 	goto_if_eq LaboProf_EventScript_PokeballThree_6
-	compare STARTER_REGION, 2
+	compare VAR_STARTER_REGION, 2
 	goto_if_eq LaboProf_EventScript_PokeballThree_7
 	goto LaboProf_EventScript_PokeballThree_1
 
 LaboProf_EventScript_PokeballThree_5:
 	bufferspeciesname STR_VAR_1, SPECIES_TORCHIC
-	setvar STARTER_CHOICE, SPECIES_TORCHIC
+	setvar VAR_STARTER_REGION, SPECIES_TORCHIC
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballThree_1
 
 LaboProf_EventScript_PokeballThree_6:
 	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
-	setvar STARTER_CHOICE, SPECIES_CYNDAQUIL
+	setvar VAR_STARTER_REGION, SPECIES_CYNDAQUIL
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballThree_1
 
 LaboProf_EventScript_PokeballThree_7:
 	bufferspeciesname STR_VAR_1, SPECIES_CHARMANDER
-	setvar STARTER_CHOICE, SPECIES_CHARMANDER
+	setvar VAR_STARTER_REGION, SPECIES_CHARMANDER
 	call LaboProf_EventScript_GiveStarter
 	goto LaboProf_EventScript_PokeballThree_1
 
 
 LaboProf_EventScript_GiveStarter::
-	showmonpic STARTER_CHOICE, 10, 3
+	showmonpic VAR_STARTER_REGION, 10, 3
 	msgbox LaboProf_EventScript_GiveStarter_Text_0, MSGBOX_YESNO
 	compare VAR_RESULT, YES
 	goto_if_eq LaboProf_EventScript_GiveStarter_1
@@ -306,8 +306,8 @@ LaboProf_EventScript_GiveStarter::
 
 LaboProf_EventScript_GiveStarter_1:
 	setflag FLAG_SYS_POKEMON_GET
-	setvar CHARLOTCITY_STATE, 2
-	givemon STARTER_CHOICE, 5, ITEM_POKE_BALL
+	setvar VAR_CHARLOTCITY_STATE, 2
+	givemon VAR_STARTER_REGION, 5, ITEM_POKE_BALL
 	compare VAR_RESULT, MON_GIVEN_TO_PARTY
 	goto_if_eq LaboProf_EventScript_GiveStarter_5
 	compare VAR_RESULT, MON_GIVEN_TO_PC

@@ -12,7 +12,7 @@ CharlotCity_Trigger_BlockPath::
 
 
 CharlotCity_RunningShoes::
-	compare CHARLOTCITY_STATE, 2
+	compare VAR_CHARLOTCITY_STATE, 2
 	goto_if_eq CharlotCity_RunningShoes_1
 	return
 
@@ -43,13 +43,13 @@ CharlotCity_RunningShoes_1:
 	setflag FLAG_MET_RIVAL_MOM
 	closedoor 21, 6
 	waitdooranim
-	setvar CHARLOTCITY_STATE, 3
+	setvar VAR_CHARLOTCITY_STATE, 3
 	releaseall
 	end
 
 
 CharlotCity_RunningShoes1::
-	compare CHARLOTCITY_STATE, 2
+	compare VAR_CHARLOTCITY_STATE, 2
 	goto_if_eq CharlotCity_RunningShoes1_1
 	return
 
@@ -79,7 +79,7 @@ CharlotCity_RunningShoes1_1:
 	removeobject 7
 	closedoor 21, 6
 	waitdooranim
-	setvar CHARLOTCITY_STATE, 3
+	setvar VAR_CHARLOTCITY_STATE, 3
 	releaseall
 	end
 

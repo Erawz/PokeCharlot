@@ -1,9 +1,11 @@
 mapscripts LaboProf_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: LaboProf_EventScript_BallDefault
+
+    
 }
  
 script LaboProf_EventScript_BallDefault{
-    setvar(STARTER_REGION, 0)
+    setvar(VAR_STARTER_REGION, 0)
     setvar(VAR_DIFFICULTY, 0)
 }
  
@@ -16,7 +18,7 @@ script Start_StarterChoose_Sequence{
     closemessage
     applymovement(4, ProfMove)
     waitmovement(0)
-    setvar(CHARLOTCITY_STATE, 1)
+    setvar(VAR_CHARLOTCITY_STATE, 1)
     release
 }
  
@@ -108,15 +110,15 @@ script LaboProf_EventScript_Birch{
         closemessage
         if (var(VAR_RESULT) == 0){
             call(StarterFade)
-            setvar(STARTER_REGION, 2)
+            setvar(VAR_STARTER_REGION, 2)
         }
         elif (var(VAR_RESULT) == 1){
             call(StarterFade)
-            setvar(STARTER_REGION, 1)
+            setvar(VAR_STARTER_REGION, 1)
         }
         elif (var(VAR_RESULT) == 2){
             call(StarterFade)
-            setvar(STARTER_REGION, 0)
+            setvar(VAR_STARTER_REGION, 0)
         }
         msgbox("Choisissez judicieusement votre Pokémon.")
         waitmessage
@@ -150,19 +152,19 @@ script LaboProf_EventScript_PokeballOne{
     lockall
     setvar(VAR_TEMP_0, 1)
     if(!(flag(FLAG_SYS_POKEMON_GET))){
-        if(var(STARTER_REGION) == 0){
+        if(var(VAR_STARTER_REGION) == 0){
             bufferspeciesname(STR_VAR_1, SPECIES_MUDKIP)
-            setvar(STARTER_CHOICE, SPECIES_MUDKIP)
+            setvar(VAR_STARTER_REGION, SPECIES_MUDKIP)
             call(LaboProf_EventScript_GiveStarter)
         }
-        elif(var(STARTER_REGION) == 1){
+        elif(var(VAR_STARTER_REGION) == 1){
             bufferspeciesname(STR_VAR_1, SPECIES_TOTODILE)
-            setvar(STARTER_CHOICE, SPECIES_TOTODILE)
+            setvar(VAR_STARTER_REGION, SPECIES_TOTODILE)
             call(LaboProf_EventScript_GiveStarter)
         }
-        elif(var(STARTER_REGION) == 2){
+        elif(var(VAR_STARTER_REGION) == 2){
             bufferspeciesname(STR_VAR_1, SPECIES_SQUIRTLE)
-            setvar(STARTER_CHOICE, SPECIES_SQUIRTLE)
+            setvar(VAR_STARTER_REGION, SPECIES_SQUIRTLE)
             call(LaboProf_EventScript_GiveStarter)
         }
     }
@@ -178,19 +180,19 @@ script LaboProf_EventScript_PokeballTwo{
     lockall
     setvar(VAR_TEMP_0, 2)
     if(!(flag(FLAG_SYS_POKEMON_GET))){
-        if(var(STARTER_REGION) == 0){
+        if(var(VAR_STARTER_REGION) == 0){
             bufferspeciesname(STR_VAR_1, SPECIES_TREECKO)
-            setvar(STARTER_CHOICE, SPECIES_TREECKO)
+            setvar(VAR_STARTER_REGION, SPECIES_TREECKO)
             call(LaboProf_EventScript_GiveStarter)
         }
-        elif(var(STARTER_REGION) == 1){
+        elif(var(VAR_STARTER_REGION) == 1){
             bufferspeciesname(STR_VAR_1, SPECIES_CHIKORITA)
-            setvar(STARTER_CHOICE, SPECIES_CHIKORITA)
+            setvar(VAR_STARTER_REGION, SPECIES_CHIKORITA)
             call(LaboProf_EventScript_GiveStarter)
         }
-        elif(var(STARTER_REGION) == 2){
+        elif(var(VAR_STARTER_REGION) == 2){
             bufferspeciesname(STR_VAR_1, SPECIES_BULBASAUR)
-            setvar(STARTER_CHOICE, SPECIES_BULBASAUR)
+            setvar(VAR_STARTER_REGION, SPECIES_BULBASAUR)
             call(LaboProf_EventScript_GiveStarter)
         }
     }
@@ -206,19 +208,19 @@ script LaboProf_EventScript_PokeballThree{
     lockall
     setvar(VAR_TEMP_0, 3)
     if(!(flag(FLAG_SYS_POKEMON_GET))){
-        if(var(STARTER_REGION) == 0){
+        if(var(VAR_STARTER_REGION) == 0){
             bufferspeciesname(STR_VAR_1, SPECIES_TORCHIC)
-            setvar(STARTER_CHOICE, SPECIES_TORCHIC)
+            setvar(VAR_STARTER_REGION, SPECIES_TORCHIC)
             call(LaboProf_EventScript_GiveStarter)
         }
-        elif(var(STARTER_REGION) == 1){
+        elif(var(VAR_STARTER_REGION) == 1){
             bufferspeciesname(STR_VAR_1, SPECIES_CYNDAQUIL)
-            setvar(STARTER_CHOICE, SPECIES_CYNDAQUIL)
+            setvar(VAR_STARTER_REGION, SPECIES_CYNDAQUIL)
             call(LaboProf_EventScript_GiveStarter)
         }
-        elif(var(STARTER_REGION) == 2){
+        elif(var(VAR_STARTER_REGION) == 2){
             bufferspeciesname(STR_VAR_1, SPECIES_CHARMANDER)
-            setvar(STARTER_CHOICE, SPECIES_CHARMANDER)
+            setvar(VAR_STARTER_REGION, SPECIES_CHARMANDER)
             call(LaboProf_EventScript_GiveStarter)
         }
     }
@@ -232,12 +234,12 @@ script LaboProf_EventScript_PokeballThree{
  
  
 script LaboProf_EventScript_GiveStarter{
-    showmonpic(STARTER_CHOICE, 10, 3)
+    showmonpic(VAR_STARTER_REGION, 10, 3)
     msgbox("Voulez vous choisir {STR_VAR_1}?", MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES){
         setflag(FLAG_SYS_POKEMON_GET)
-        setvar(CHARLOTCITY_STATE, 2)
-        givemon(STARTER_CHOICE, 5, ITEM_POKE_BALL)
+        setvar(VAR_CHARLOTCITY_STATE, 2)
+        givemon(VAR_STARTER_REGION, 5, ITEM_POKE_BALL)
         if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Vous avez reçu {STR_VAR_1}")

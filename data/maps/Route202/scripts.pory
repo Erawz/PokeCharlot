@@ -1,5 +1,9 @@
 mapscripts Route202_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route202_EventScript_Default
+
+     // @ State descriptions for VAR_STATIS_STATE
+    //  @ 0: Trigger block
+   //	@ 1: Rival Beated
     
 }
 
@@ -11,10 +15,10 @@ script Route202_EventScript_Default {
 script Route202_EventScript_RivalBattle {
     if(!(flag(STARTER_BALL_ONE) || flag(STARTER_BALL_TWO) || flag(STARTER_BALL_THREE))) {
         setflag(RIVAL_ROUTE_202_BATTLE)
-        setvar(STATIS_STATE, 0)
+        setvar(VAR_STATIS_STATE, 0)
     }
     else{
-        if(var(STATIS_STATE) == 0){
+        if(var(VAR_STATIS_STATE) == 0){
             clearflag(RIVAL_ROUTE_202_BATTLE)
         }
     }
@@ -66,7 +70,7 @@ script RivalBattleOver {
     removeobject(1)
     setflag(RIVAL_ROUTE_202_BATTLE)
     clearflag(BLOCK_ROUTE_202)
-    setvar(STATIS_STATE, 1)
+    setvar(VAR_STATIS_STATE, 1)
     waitmessage
     playbgm(MUS_ROUTE101, TRUE)
     releaseall

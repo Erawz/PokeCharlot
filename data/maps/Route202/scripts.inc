@@ -11,13 +11,13 @@ Route202_EventScript_Default::
 Route202_EventScript_RivalBattle::
 	goto_if_unset STARTER_BALL_ONE, Route202_EventScript_RivalBattle_3
 Route202_EventScript_RivalBattle_2:
-	compare STATIS_STATE, 0
+	compare VAR_STATIS_STATE, 0
 	goto_if_eq Route202_EventScript_RivalBattle_8
 	return
 
 Route202_EventScript_RivalBattle_1:
 	setflag RIVAL_ROUTE_202_BATTLE
-	setvar STATIS_STATE, 0
+	setvar VAR_STATIS_STATE, 0
 	return
 
 Route202_EventScript_RivalBattle_3:
@@ -81,7 +81,7 @@ RivalBattleOver::
 	removeobject 1
 	setflag RIVAL_ROUTE_202_BATTLE
 	clearflag BLOCK_ROUTE_202
-	setvar STATIS_STATE, 1
+	setvar VAR_STATIS_STATE, 1
 	waitmessage
 	playbgm MUS_ROUTE101, TRUE
 	releaseall

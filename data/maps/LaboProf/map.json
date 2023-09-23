@@ -89,7 +89,7 @@
       "x": 6,
       "y": 11,
       "elevation": 0,
-      "var": "CHARLOTCITY_STATE",
+      "var": "VAR_CHARLOTCITY_STATE",
       "var_value": "0",
       "script": "Start_StarterChoose_Sequence"
     },
@@ -98,25 +98,25 @@
       "x": 7,
       "y": 11,
       "elevation": 0,
-      "var": "CHARLOTCITY_STATE",
+      "var": "VAR_CHARLOTCITY_STATE",
       "var_value": "0",
       "script": "Start_StarterChoose_Sequence2"
     },
     {
       "type": "trigger",
       "x": 6,
-      "y": 11,
+      "y": 10,
       "elevation": 0,
-      "var": "CHARLOTCITY_STATE",
+      "var": "VAR_CHARLOTCITY_STATE",
       "var_value": "1",
       "script": "StopLeaving"
     },
     {
       "type": "trigger",
       "x": 7,
-      "y": 11,
+      "y": 10,
       "elevation": 0,
-      "var": "CHARLOTCITY_STATE",
+      "var": "VAR_CHARLOTCITY_STATE",
       "var_value": "1",
       "script": "StopLeaving"
     }

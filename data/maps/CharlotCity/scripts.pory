@@ -1,6 +1,6 @@
 mapscripts CharlotCity_MapScripts {
 
-     // @ State descriptions for CHARLOTCITY_STATE
+     // @ State descriptions for VAR_CHARLOTCITY_STATE
     //  @ 0: Trigger block
    //	@ 1: STARTER_BALL
   //	@ 2: Running Shoes
@@ -19,7 +19,7 @@ script CharlotCity_Trigger_BlockPath {
 
 script CharlotCity_RunningShoes {
 
-    if (var(CHARLOTCITY_STATE) == 2) {
+    if (var(VAR_CHARLOTCITY_STATE) == 2) {
         lockall
         opendoor(21, 6)
         waitdooranim
@@ -46,7 +46,7 @@ script CharlotCity_RunningShoes {
         setflag(FLAG_MET_RIVAL_MOM)
         closedoor(21, 6)
         waitdooranim
-        setvar(CHARLOTCITY_STATE, 3)
+        setvar(VAR_CHARLOTCITY_STATE, 3)
         releaseall
         end  
     }   
@@ -54,7 +54,7 @@ script CharlotCity_RunningShoes {
 
 script CharlotCity_RunningShoes1 {
 
-    if (var(CHARLOTCITY_STATE) == 2) {
+    if (var(VAR_CHARLOTCITY_STATE) == 2) {
         lockall
         opendoor(21, 6)
         waitdooranim
@@ -80,7 +80,7 @@ script CharlotCity_RunningShoes1 {
         removeobject(7)
         closedoor(21, 6)
         waitdooranim
-        setvar(CHARLOTCITY_STATE, 3)
+        setvar(VAR_CHARLOTCITY_STATE, 3)
         releaseall
         end  
     }   
