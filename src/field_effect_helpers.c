@@ -14,6 +14,7 @@
 #include "constants/event_objects.h"
 #include "constants/field_effects.h"
 #include "constants/songs.h"
+#include "event_object_movement.h"
 
 #define OBJ_EVENT_PAL_TAG_NONE 0x11FF // duplicate of define in event_object_movement.c
 #define PAL_TAG_REFLECTION_OFFSET 0x2000 // reflection tag value is paletteTag + 0x2000
@@ -349,10 +350,11 @@ u32 FldEff_Shadow(void)
         gSprites[spriteId].data[1] = gFieldEffectArguments[1];
         gSprites[spriteId].data[2] = gFieldEffectArguments[2];
         gSprites[spriteId].data[3] = (graphicsInfo->height >> 1) - gShadowVerticalOffsets[graphicsInfo->shadowSize];
+
         gSprites[spriteId].oam.objMode = ST_OAM_OBJ_BLEND;
     }
     SetGpuReg(REG_OFFSET_DISPCNT, 0x1F40);
-    SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0,14)); // Right value from 0 - 16, where 0 is full black and 16 is no shadow
+    SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0, BASE_SHADOW_INTENSITY));
     return 0;
 }
 

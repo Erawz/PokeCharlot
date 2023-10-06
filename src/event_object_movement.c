@@ -54,6 +54,9 @@
 #include "constants/weather.h"
 #include "field_weather.h"
 
+#include "constants/weather.h"
+#include "field_weather.h"
+
 // this file was known as evobjmv.c in Game Freak's original source
 
 enum {
@@ -199,6 +202,8 @@ static bool8 AreElevationsCompatible(u8, u8);
 static void GetGroundEffectFlags_Shadow(struct ObjectEvent*, u32*);
 static u16 PackGraphicsId(const struct ObjectEventTemplate *template);
 static void CopyObjectGraphicsInfoToSpriteTemplate_WithMovementType(u16 graphicsId, u16 movementType, struct SpriteTemplate *spriteTemplate, const struct SubspriteTable **subspriteTables);
+
+static void GetGroundEffectFlags_Shadow(struct ObjectEvent*, u32*);
 
 static const struct SpriteFrameImage sPicTable_PechaBerryTree[];
 
@@ -9218,14 +9223,17 @@ static const u8 sDisallowedIds[] = {
 };
 
 static const u8 sDisallowedWeathers[] = {
-    WEATHER_RAIN,
+    WEATHER_SANDSTORM,
     WEATHER_FOG_HORIZONTAL,
+    WEATHER_FOG_DIAGONAL,
 };
 
 typedef bool8 (*MetatileFunc)(u8);
 static const MetatileFunc sDisallowedMetatiles[] = {
     MetatileBehavior_IsTallGrass,
     MetatileBehavior_IsLongGrass,
+    MetatileBehavior_IsPuddle,
+    MetatileBehavior_IsHotSprings,
 };
 
 static bool8 IsShadowAllowedInId(struct ObjectEvent *objEvent) {
@@ -9274,14 +9282,22 @@ static bool8 IsShadowAllowedInMetatile(struct ObjectEvent *objEvent) {
     return TRUE;
 }
 
-static void GetGroundEffectFlags_Shadow(struct ObjectEvent *objEvent, u32 *flags) {
-    if(objEvent->invisible || !objEvent->active 
-        || !IsShadowAllowedInId(objEvent) || !IsShadowAllowedInWeather() || !IsShadowAllowedInMetatile(objEvent)){
-        objEvent->hasShadow = FALSE;
+static void GetGroundEffectFlags_Shadow(struct ObjectEvent *objectEvent, u32 *flags) {
+    if(objectEvent->invisible 
+        || !objectEvent->active 
+        || objectEvent->inHotSprings
+        || objectEvent->inSandPile
+        || MetatileBehavior_IsPokeGrass(objectEvent->currentMetatileBehavior)
+        || MetatileBehavior_IsPuddle(objectEvent->currentMetatileBehavior)
+        || MetatileBehavior_IsSurfableWaterOrUnderwater(objectEvent->currentMetatileBehavior)
+        || MetatileBehavior_IsSurfableWaterOrUnderwater(objectEvent->previousMetatileBehavior)
+        || !IsShadowAllowedInId(objectEvent) || !IsShadowAllowedInWeather() || !IsShadowAllowedInMetatile(objectEvent))
+    {
+        objectEvent->hasShadow = FALSE;
         return;
     }
 
-    if(objEvent->hasShadow)
+    if(objectEvent->hasShadow)
         return;
 
     *flags |= GROUND_EFFECT_SHADOW;
@@ -9761,7 +9777,6 @@ void GroundEffect_Shadow(struct ObjectEvent *objEvent, struct Sprite *sprite) {
     objEvent->hasShadow = TRUE;
     StartFieldEffectForObjectEvent(FLDEFF_SHADOW, objEvent);
 }
-
 
 static void (*const sGroundEffectFuncs[])(struct ObjectEvent *objEvent, struct Sprite *sprite) = {
     GroundEffect_SpawnOnTallGrass,      // GROUND_EFFECT_FLAG_TALL_GRASS_ON_SPAWN
