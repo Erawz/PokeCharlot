@@ -211,6 +211,7 @@ static const struct SpriteFrameImage sStartMenuIconFrames[] = {
 };
 
 
+
 static const struct WindowTemplate sClockWindowTemplate = {0, 1, 1, 9, 2, 0xF, 8};
 
 static const struct WindowTemplate sSafariBallsWindowTemplate = {0, 1, 1, 9, 4, 0xF, 8};
@@ -598,7 +599,6 @@ static bool32 PrintStartMenuActions(s8 *pIndex, u32 count)
                 AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, TEXT_WINDOW_OFFSET, text_yposition, TEXT_SKIP_DRAW, NULL);
             else
                 AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, (index << 4) + 9, TEXT_SKIP_DRAW, NULL);
-            AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, (index << 4) + 9, TEXT_SKIP_DRAW, NULL);
         }
         // Loads up each of the icons upon opening the start menu
         DynamicallyLoadStartMenuIcon(index);
