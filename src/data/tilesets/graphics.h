@@ -1767,3 +1767,1199 @@ const u16 gTilesetPalettes_PorytilesSecondaryTest[][16] =
 };
 
 const u32 gTilesetTiles_PorytilesSecondaryTest[] = INCBIN_U32("data/tilesets/secondary/porytiles_secondary_test/tiles.4bpp.lz");
+const u16 gTilesetPalettes_PokeCharlot_General[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_general/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_General[] = INCBIN_U32("data/tilesets/primary/poke_charlot_general/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_Building[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/poke_charlot_building/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_Building[] = INCBIN_U32("data/tilesets/primary/poke_charlot_building/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_BerryForest[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_BerryForest[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_berry_forest/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_BikeShop[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_BikeShop[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_bike_shop/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_BurgledHouse[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_BurgledHouse[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_burgled_house/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CableClub[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CableClub[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cable_club/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_Cave[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_Cave[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cave/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CeladonCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CeladonCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_celadon_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CeladonGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CeladonGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_celadon_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CeruleanCave[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CeruleanCave[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cerulean_cave/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CeruleanCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CeruleanCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cerulean_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CeruleanGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CeruleanGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cerulean_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CinnabarGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CinnabarGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cinnabar_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_CinnabarIsland[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_CinnabarIsland[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_cinnabar_island/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_Condominiums[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_Condominiums[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_condominiums/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_DepartmentStore[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_DepartmentStore[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_department_store/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_DiglettsCave[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_DiglettsCave[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_digletts_cave/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_FanClubDaycare[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_FanClubDaycare[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_fan_club_daycare/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_FuchsiaCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_FuchsiaCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_fuchsia_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_FuchsiaGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_FuchsiaGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_fuchsia_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_GameCorner[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_GameCorner[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_game_corner/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_GenericBuilding1[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_GenericBuilding1[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_generic_building_1/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_GenericBuilding2[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_GenericBuilding2[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_generic_building_2/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_HallOfFame[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_HallOfFame[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_hall_of_fame/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_HoennBuilding[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_HoennBuilding[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_hoenn_building/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_IndigoPlateau[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_IndigoPlateau[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_indigo_plateau/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_IslandHarbor[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_IslandHarbor[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_island_harbor/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_Lab[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_Lab[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_lab/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_LavenderTown[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_LavenderTown[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_lavender_town/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_Mart[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_Mart[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_mart/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_MtEmber[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_MtEmber[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_mt_ember/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_Museum[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_Museum[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_museum/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_NavelRock[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_NavelRock[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_navel_rock/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PalletTown[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PalletTown[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pallet_town/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PewterCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PewterCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pewter_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PewterGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PewterGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pewter_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PokemonCenter[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PokemonCenter[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pokemon_center/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PokemonLeague[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PokemonLeague[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pokemon_league/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PokemonMansion[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PokemonMansion[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pokemon_mansion/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PokemonTower[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PokemonTower[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_pokemon_tower/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_PowerPlant[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_PowerPlant[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_power_plant/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_RestaurantHotel[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_RestaurantHotel[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_restaurant_hotel/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_RockTunnel[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_RockTunnel[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_rock_tunnel/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SafariZoneBuilding[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SafariZoneBuilding[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_safari_zone_building/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SaffronCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SaffronCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_saffron_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SaffronGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SaffronGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_saffron_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_School[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_school/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_School[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_school/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SeaCottage[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SeaCottage[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_sea_cottage/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SeafoamIsland[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SeafoamIsland[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_seafoam_island/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SeviiIslands45[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SeviiIslands45[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_sevii_islands_45/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SeviiIslands67[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SeviiIslands67[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_sevii_islands_67/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SeviiIslands123[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SeviiIslands123[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_sevii_islands_123/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_SsAnne[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_SsAnne[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_ss_anne/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_TanobyRuins[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_TanobyRuins[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_tanoby_ruins/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_TrainerTower[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_TrainerTower[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_trainer_tower/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_UndergroundPath[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_UndergroundPath[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_underground_path/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_UnusedGatehouse1[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_UnusedGatehouse1[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_UnusedGatehouse2[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_UnusedGatehouse2[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_VermilionCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_VermilionCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_vermilion_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_VermilionGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_VermilionGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_vermilion_gym/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_ViridianCity[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_ViridianCity[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_viridian_city/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_ViridianForest[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_ViridianForest[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_viridian_forest/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PokeCharlot_ViridianGym[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PokeCharlot_ViridianGym[] = INCBIN_U32("data/tilesets/secondary/poke_charlot_viridian_gym/tiles.4bpp.lz");

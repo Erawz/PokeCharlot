@@ -31,6 +31,14 @@ Start_StarterChoose_Sequence2::
 	return
 
 
+Start_StarterChoose_Sequence3::
+	lock
+	applymovement OBJ_EVENT_ID_PLAYER, MeetBirch3
+	waitmovement 0
+	goto Start_StarterChoose_Sequence
+	return
+
+
 MeetBirch:
 	walk_up
 	walk_up
@@ -38,6 +46,10 @@ MeetBirch:
 
 MeetBirch2:
 	walk_left
+	step_end
+
+MeetBirch3:
+	walk_right
 	step_end
 
 ProfMove:

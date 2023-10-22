@@ -228,3 +228,191 @@ const u16 gMetatileAttributes_PorytilesPrimaryTest[] = INCBIN_U16("data/tilesets
 
 const u16 gMetatiles_PorytilesSecondaryTest[] = INCBIN_U16("data/tilesets/secondary/porytiles_secondary_test/metatiles.bin");
 const u16 gMetatileAttributes_PorytilesSecondaryTest[] = INCBIN_U16("data/tilesets/secondary/porytiles_secondary_test/metatile_attributes.bin");
+const u16 gMetatiles_PokeCharlot_General[] = INCBIN_U16("data/tilesets/primary/poke_charlot_general/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_General[] = INCBIN_U16("data/tilesets/primary/poke_charlot_general/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_Building[] = INCBIN_U16("data/tilesets/primary/poke_charlot_building/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_Building[] = INCBIN_U16("data/tilesets/primary/poke_charlot_building/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_BerryForest[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_BerryForest[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_berry_forest/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_BikeShop[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_BikeShop[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_bike_shop/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_BurgledHouse[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_BurgledHouse[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_burgled_house/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CableClub[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CableClub[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cable_club/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_Cave[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_Cave[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CeladonCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CeladonCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CeladonGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CeladonGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_celadon_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CeruleanCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CeruleanCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CeruleanGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CeruleanGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cerulean_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CinnabarGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CinnabarGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_CinnabarIsland[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_CinnabarIsland[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_cinnabar_island/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_Condominiums[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_Condominiums[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_condominiums/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_department_store/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_DiglettsCave[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_DiglettsCave[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_digletts_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_FanClubDaycare[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_FanClubDaycare[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_fan_club_daycare/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_FuchsiaCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_FuchsiaCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_FuchsiaGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_FuchsiaGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_fuchsia_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_GameCorner[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_GameCorner[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_game_corner/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_GenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_GenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_1/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_GenericBuilding2[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_GenericBuilding2[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_generic_building_2/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_hall_of_fame/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_HoennBuilding[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_HoennBuilding[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_hoenn_building/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_IndigoPlateau[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_IndigoPlateau[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_indigo_plateau/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_IslandHarbor[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_IslandHarbor[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_island_harbor/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_Lab[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_Lab[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_lab/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_LavenderTown[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_LavenderTown[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_lavender_town/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_Mart[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_Mart[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_mart/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_MtEmber[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_MtEmber[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_mt_ember/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_Museum[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_Museum[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_museum/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_NavelRock[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_NavelRock[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_navel_rock/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PalletTown[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PalletTown[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pallet_town/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PewterCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PewterCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PewterGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PewterGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pewter_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PokemonCenter[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PokemonCenter[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_center/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PokemonLeague[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PokemonLeague[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_league/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PokemonMansion[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PokemonMansion[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_mansion/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PokemonTower[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PokemonTower[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_pokemon_tower/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_PowerPlant[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_PowerPlant[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_power_plant/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_RestaurantHotel[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_RestaurantHotel[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_restaurant_hotel/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_RockTunnel[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_RockTunnel[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_rock_tunnel/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SafariZoneBuilding[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SafariZoneBuilding[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_safari_zone_building/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SaffronCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SaffronCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SaffronGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SaffronGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_saffron_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_School[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_school/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_School[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_school/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SeaCottage[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SeaCottage[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sea_cottage/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SeafoamIsland[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SeafoamIsland[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_seafoam_island/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SeviiIslands45[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SeviiIslands45[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_45/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SeviiIslands67[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SeviiIslands67[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_67/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SeviiIslands123[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SeviiIslands123[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_sevii_islands_123/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_SsAnne[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_SsAnne[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_ss_anne/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_TanobyRuins[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_TanobyRuins[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_tanoby_ruins/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_TrainerTower[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_TrainerTower[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_trainer_tower/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_UndergroundPath[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_UndergroundPath[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_underground_path/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_UnusedGatehouse1[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_UnusedGatehouse1[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_1/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_UnusedGatehouse2[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_UnusedGatehouse2[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_unused_gatehouse_2/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_VermilionCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_VermilionCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_VermilionGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_VermilionGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_vermilion_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_ViridianCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_ViridianCity[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_city/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_ViridianForest[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_ViridianForest[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_forest/metatile_attributes.bin");
+
+const u16 gMetatiles_PokeCharlot_ViridianGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/metatiles.bin");
+const u16 gMetatileAttributes_PokeCharlot_ViridianGym[] = INCBIN_U16("data/tilesets/secondary/poke_charlot_viridian_gym/metatile_attributes.bin");

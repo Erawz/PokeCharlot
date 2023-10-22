@@ -95,13 +95,13 @@ static u8 GetSecretBaseOwnerType(u8);
 
 static const struct SecretBaseEntranceMetatiles sSecretBaseEntranceMetatiles[] =
 {
-    {.closedMetatileId = METATILE_General_SecretBase_TreeLeft,  .openMetatileId = METATILE_General_SecretBase_VineLeft},
-    {.closedMetatileId = METATILE_General_SecretBase_TreeRight, .openMetatileId = METATILE_General_SecretBase_VineRight},
-    {.closedMetatileId = METATILE_General_RedCaveIndent,        .openMetatileId = METATILE_General_RedCaveOpen},
-    {.closedMetatileId = METATILE_General_YellowCaveIndent,     .openMetatileId = METATILE_General_YellowCaveOpen},
-    {.closedMetatileId = METATILE_General_BlueCaveIndent,       .openMetatileId = METATILE_General_BlueCaveOpen},
-    {.closedMetatileId = METATILE_Fallarbor_BrownCaveIndent,    .openMetatileId = METATILE_Fallarbor_BrownCaveOpen},
-    {.closedMetatileId = METATILE_Fortree_SecretBase_Shrub,     .openMetatileId = METATILE_Fortree_SecretBase_ShrubOpen},
+   // {.closedMetatileId = METATILE_General_SecretBase_TreeLeft,  .openMetatileId = METATILE_General_SecretBase_VineLeft},
+   // {.closedMetatileId = METATILE_General_SecretBase_TreeRight, .openMetatileId = METATILE_General_SecretBase_VineRight},
+   // {.closedMetatileId = METATILE_General_RedCaveIndent,        .openMetatileId = METATILE_General_RedCaveOpen},
+   // {.closedMetatileId = METATILE_General_YellowCaveIndent,     .openMetatileId = METATILE_General_YellowCaveOpen},
+   // {.closedMetatileId = METATILE_General_BlueCaveIndent,       .openMetatileId = METATILE_General_BlueCaveOpen},
+   // {.closedMetatileId = METATILE_Fallarbor_BrownCaveIndent,    .openMetatileId = METATILE_Fallarbor_BrownCaveOpen},
+   // {.closedMetatileId = METATILE_Fortree_SecretBase_Shrub,     .openMetatileId = METATILE_Fortree_SecretBase_ShrubOpen},
 };
 
 // mapNum, warpId, x, y
@@ -326,7 +326,7 @@ void ToggleSecretBaseEntranceMetatile(void)
     metatileId = MapGridGetMetatileIdAt(x, y);
 
     // Look for entrance metatiles to open
-    for (i = 0; i < ARRAY_COUNT(sSecretBaseEntranceMetatiles); i++)
+  //  for (i = 0; i < ARRAY_COUNT(sSecretBaseEntranceMetatiles); i++)
     {
         if (sSecretBaseEntranceMetatiles[i].closedMetatileId == metatileId)
         {
@@ -337,7 +337,7 @@ void ToggleSecretBaseEntranceMetatile(void)
     }
 
     // Look for entrance metatiles to close
-    for (i = 0; i < ARRAY_COUNT(sSecretBaseEntranceMetatiles); i++)
+    //for (i = 0; i < ARRAY_COUNT(sSecretBaseEntranceMetatiles); i++)
     {
         if (sSecretBaseEntranceMetatiles[i].openMetatileId == metatileId)
         {
@@ -392,7 +392,7 @@ void SetOccupiedSecretBaseEntranceMetatiles(struct MapEvents const *events)
                     s16 x = events->bgEvents[bgId].x + MAP_OFFSET;
                     s16 y = events->bgEvents[bgId].y + MAP_OFFSET;
                     s16 tile_id = MapGridGetMetatileIdAt(x, y);
-                    for (i = 0; i < ARRAY_COUNT(sSecretBaseEntranceMetatiles); i++)
+                   // for (i = 0; i < ARRAY_COUNT(sSecretBaseEntranceMetatiles); i++)
                     {
                         if (sSecretBaseEntranceMetatiles[i].closedMetatileId == tile_id)
                         {
@@ -832,7 +832,7 @@ static void ClosePlayerSecretBaseEntrance(void)
          && gSaveBlock1Ptr->secretBases[0].secretBaseId == events->bgEvents[i].bgUnion.secretBaseId)
         {
             metatileId = MapGridGetMetatileIdAt(events->bgEvents[i].x + MAP_OFFSET, events->bgEvents[i].y + MAP_OFFSET);
-            for (j = 0; j < ARRAY_COUNT(sSecretBaseEntranceMetatiles); j++)
+            //for (j = 0; j < ARRAY_COUNT(sSecretBaseEntranceMetatiles); j++)
             {
                 if (sSecretBaseEntranceMetatiles[j].openMetatileId == metatileId)
                 {

@@ -30,11 +30,11 @@ def create_new_behavior(path):
 
 # copy fire red tilesets over
 if not os.path.isdir('data/tilesets/secondary/berry_forest/'):
-	path = 'C:/Users/rodri/Desktop/pokefirered-master/data/tilesets/secondary'
+	path = '../../firered/pokefirered/data/tilesets/secondary'
 	dirs = os.listdir(path)
 	for dir in dirs:
 		if os.path.isfile(path + '/' + dir + '/tiles.png'):
-			str = 'cp -a ' + path + '/' + dir + ' C:/Users/rodri/Desktop/Pokemon/Decomps/PokemonEmerald/pokeemerald-expansion/data/tilesets/secondary/.';
+			str = 'cp -a ' + path + '/' + dir + ' ../../emerald/pokeemerald/data/tilesets/secondary/.';
 			print(str)
 			os.system(str)
 

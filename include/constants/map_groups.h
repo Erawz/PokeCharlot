@@ -598,11 +598,14 @@
 #define MAP_ROUTE201      (2 | (34 << 8))
 #define MAP_ROUTE202      (3 | (34 << 8))
 #define MAP_PORY_TEST_MAP (4 | (34 << 8))
+#define MAP_ROUTE201_2    (5 | (34 << 8))
+#define MAP_ROUTE201_3    (6 | (34 << 8))
 
 // gMapGroup_IndoorCharlotCity
-#define MAP_LABO_PROF             (0 | (35 << 8))
-#define MAP_CHARTLOT_CITY_MAISON1 (1 | (35 << 8))
-#define MAP_CHARLOT_CITY_MAISON2  (2 | (35 << 8))
+#define MAP_LABO_PROF               (0 | (35 << 8))
+#define MAP_CHARTLOT_CITY_MAISON1   (1 | (35 << 8))
+#define MAP_CHARLOT_CITY_MAISON2    (2 | (35 << 8))
+#define MAP_CHARLOT_CITY_MAISON1_2F (3 | (35 << 8))
 
 // gMapGroup_IndorStatis
 #define MAP_STATIS_POKE_SHOP      (0 | (36 << 8))

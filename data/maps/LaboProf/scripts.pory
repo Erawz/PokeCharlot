@@ -28,13 +28,23 @@ script Start_StarterChoose_Sequence2{
     waitmovement(0)
     goto(Start_StarterChoose_Sequence)
 }
+
+script Start_StarterChoose_Sequence3{
+    lock
+    applymovement(OBJ_EVENT_ID_PLAYER, MeetBirch3)
+    waitmovement(0)
+    goto(Start_StarterChoose_Sequence)
+}
  
 movement MeetBirch{
     walk_up * 2
 } 
 movement MeetBirch2{
     walk_left
-} 
+}
+movement MeetBirch3{
+    walk_right
+}  
 movement ProfMove{
     walk_up
     walk_right * 2

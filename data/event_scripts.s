@@ -1095,3 +1095,9 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/PorytilesTestMap/scripts.inc"
 
 	.include "data/maps/PoryTestMap/scripts.inc"
+
+	.include "data/maps/CharlotCity_Maison1_2F/scripts.inc"
+
+	.include "data/maps/Route201_2/scripts.inc"
+
+	.include "data/maps/Route201_3/scripts.inc"

@@ -630,12 +630,15 @@
     "StatisTown",
     "Route201",
     "Route202",
-    "PoryTestMap"
+    "PoryTestMap",
+    "Route201_2",
+    "Route201_3"
   ],
   "gMapGroup_IndoorCharlotCity": [
     "LaboProf",
     "ChartlotCity_Maison1",
-    "CharlotCity_Maison2"
+    "CharlotCity_Maison2",
+    "CharlotCity_Maison1_2F"
   ],
   "gMapGroup_IndorStatis": [
     "Statis_PokeShop",

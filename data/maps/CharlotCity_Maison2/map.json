@@ -2,7 +2,7 @@
   "id": "MAP_CHARLOT_CITY_MAISON2",
   "name": "CharlotCity_Maison2",
   "layout": "LAYOUT_CHARLOT_CITY_MAISON2",
-  "music": "MUS_LITTLEROOT",
+  "music": "MUS_RG_PALLET",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -19,17 +19,24 @@
   "warp_events": [
     {
       "x": 4,
-      "y": 7,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_CHARLOT_CITY",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     },
     {
       "x": 3,
-      "y": 7,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_CHARLOT_CITY",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_CHARLOT_CITY",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

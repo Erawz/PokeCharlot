@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE201",
   "name": "Route201",
   "layout": "LAYOUT_ROUTE201",
-  "music": "MUS_ROUTE101",
+  "music": "MUS_RG_ROUTE1",
   "region_map_section": "MAPSEC_ROUTE_101",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -14,14 +14,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_STATIS_TOWN",
-      "offset": 0,
-      "direction": "right"
-    },
-    {
       "map": "MAP_CHARLOT_CITY",
       "offset": 0,
-      "direction": "left"
+      "direction": "down"
     }
   ],
   "object_events": [

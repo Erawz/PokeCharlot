@@ -904,3 +904,696 @@ const struct Tileset gTileset_PorytilesSecondaryTest =
     .metatileAttributes = gMetatileAttributes_PorytilesSecondaryTest,
     .callback = NULL,
 };
+const struct Tileset gTileset_PokeCharlot_General =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PokeCharlot_General,
+    .palettes = gTilesetPalettes_PokeCharlot_General,
+    .metatiles = gMetatiles_PokeCharlot_General,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_General,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_Building =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PokeCharlot_Building,
+    .palettes = gTilesetPalettes_PokeCharlot_Building,
+    .metatiles = gMetatiles_PokeCharlot_Building,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_Building,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_BerryForest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_BerryForest,
+    .palettes = gTilesetPalettes_PokeCharlot_BerryForest,
+    .metatiles = gMetatiles_PokeCharlot_BerryForest,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_BerryForest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_BikeShop =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_BikeShop,
+    .palettes = gTilesetPalettes_PokeCharlot_BikeShop,
+    .metatiles = gMetatiles_PokeCharlot_BikeShop,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_BikeShop,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_BurgledHouse =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_BurgledHouse,
+    .palettes = gTilesetPalettes_PokeCharlot_BurgledHouse,
+    .metatiles = gMetatiles_PokeCharlot_BurgledHouse,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_BurgledHouse,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CableClub =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CableClub,
+    .palettes = gTilesetPalettes_PokeCharlot_CableClub,
+    .metatiles = gMetatiles_PokeCharlot_CableClub,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CableClub,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_Cave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_Cave,
+    .palettes = gTilesetPalettes_PokeCharlot_Cave,
+    .metatiles = gMetatiles_PokeCharlot_Cave,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_Cave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CeladonCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CeladonCity,
+    .palettes = gTilesetPalettes_PokeCharlot_CeladonCity,
+    .metatiles = gMetatiles_PokeCharlot_CeladonCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CeladonCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CeladonGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CeladonGym,
+    .palettes = gTilesetPalettes_PokeCharlot_CeladonGym,
+    .metatiles = gMetatiles_PokeCharlot_CeladonGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CeladonGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CeruleanCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CeruleanCave,
+    .palettes = gTilesetPalettes_PokeCharlot_CeruleanCave,
+    .metatiles = gMetatiles_PokeCharlot_CeruleanCave,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CeruleanCave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CeruleanCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CeruleanCity,
+    .palettes = gTilesetPalettes_PokeCharlot_CeruleanCity,
+    .metatiles = gMetatiles_PokeCharlot_CeruleanCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CeruleanCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CeruleanGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CeruleanGym,
+    .palettes = gTilesetPalettes_PokeCharlot_CeruleanGym,
+    .metatiles = gMetatiles_PokeCharlot_CeruleanGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CeruleanGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CinnabarGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CinnabarGym,
+    .palettes = gTilesetPalettes_PokeCharlot_CinnabarGym,
+    .metatiles = gMetatiles_PokeCharlot_CinnabarGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CinnabarGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_CinnabarIsland =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_CinnabarIsland,
+    .palettes = gTilesetPalettes_PokeCharlot_CinnabarIsland,
+    .metatiles = gMetatiles_PokeCharlot_CinnabarIsland,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_CinnabarIsland,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_Condominiums =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_Condominiums,
+    .palettes = gTilesetPalettes_PokeCharlot_Condominiums,
+    .metatiles = gMetatiles_PokeCharlot_Condominiums,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_Condominiums,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_DepartmentStore =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_DepartmentStore,
+    .palettes = gTilesetPalettes_PokeCharlot_DepartmentStore,
+    .metatiles = gMetatiles_PokeCharlot_DepartmentStore,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_DepartmentStore,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_DiglettsCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_DiglettsCave,
+    .palettes = gTilesetPalettes_PokeCharlot_DiglettsCave,
+    .metatiles = gMetatiles_PokeCharlot_DiglettsCave,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_DiglettsCave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_FanClubDaycare =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_FanClubDaycare,
+    .palettes = gTilesetPalettes_PokeCharlot_FanClubDaycare,
+    .metatiles = gMetatiles_PokeCharlot_FanClubDaycare,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_FanClubDaycare,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_FuchsiaCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_FuchsiaCity,
+    .palettes = gTilesetPalettes_PokeCharlot_FuchsiaCity,
+    .metatiles = gMetatiles_PokeCharlot_FuchsiaCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_FuchsiaCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_FuchsiaGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_FuchsiaGym,
+    .palettes = gTilesetPalettes_PokeCharlot_FuchsiaGym,
+    .metatiles = gMetatiles_PokeCharlot_FuchsiaGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_FuchsiaGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_GameCorner =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_GameCorner,
+    .palettes = gTilesetPalettes_PokeCharlot_GameCorner,
+    .metatiles = gMetatiles_PokeCharlot_GameCorner,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_GameCorner,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_GenericBuilding1 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_GenericBuilding1,
+    .palettes = gTilesetPalettes_PokeCharlot_GenericBuilding1,
+    .metatiles = gMetatiles_PokeCharlot_GenericBuilding1,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_GenericBuilding1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_GenericBuilding2 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_GenericBuilding2,
+    .palettes = gTilesetPalettes_PokeCharlot_GenericBuilding2,
+    .metatiles = gMetatiles_PokeCharlot_GenericBuilding2,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_GenericBuilding2,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_HallOfFame =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_HallOfFame,
+    .palettes = gTilesetPalettes_PokeCharlot_HallOfFame,
+    .metatiles = gMetatiles_PokeCharlot_HallOfFame,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_HallOfFame,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_HoennBuilding =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_HoennBuilding,
+    .palettes = gTilesetPalettes_PokeCharlot_HoennBuilding,
+    .metatiles = gMetatiles_PokeCharlot_HoennBuilding,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_HoennBuilding,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_IndigoPlateau =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_IndigoPlateau,
+    .palettes = gTilesetPalettes_PokeCharlot_IndigoPlateau,
+    .metatiles = gMetatiles_PokeCharlot_IndigoPlateau,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_IndigoPlateau,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_IslandHarbor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_IslandHarbor,
+    .palettes = gTilesetPalettes_PokeCharlot_IslandHarbor,
+    .metatiles = gMetatiles_PokeCharlot_IslandHarbor,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_IslandHarbor,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_Lab =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_Lab,
+    .palettes = gTilesetPalettes_PokeCharlot_Lab,
+    .metatiles = gMetatiles_PokeCharlot_Lab,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_Lab,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_LavenderTown =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_LavenderTown,
+    .palettes = gTilesetPalettes_PokeCharlot_LavenderTown,
+    .metatiles = gMetatiles_PokeCharlot_LavenderTown,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_LavenderTown,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_Mart =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_Mart,
+    .palettes = gTilesetPalettes_PokeCharlot_Mart,
+    .metatiles = gMetatiles_PokeCharlot_Mart,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_Mart,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_MtEmber =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_MtEmber,
+    .palettes = gTilesetPalettes_PokeCharlot_MtEmber,
+    .metatiles = gMetatiles_PokeCharlot_MtEmber,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_MtEmber,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_Museum =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_Museum,
+    .palettes = gTilesetPalettes_PokeCharlot_Museum,
+    .metatiles = gMetatiles_PokeCharlot_Museum,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_Museum,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_NavelRock =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_NavelRock,
+    .palettes = gTilesetPalettes_PokeCharlot_NavelRock,
+    .metatiles = gMetatiles_PokeCharlot_NavelRock,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_NavelRock,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PalletTown =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PalletTown,
+    .palettes = gTilesetPalettes_PokeCharlot_PalletTown,
+    .metatiles = gMetatiles_PokeCharlot_PalletTown,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PalletTown,
+    .callback = NULL,
+    .paletteOverrides = gTilesetPalOverride_PalletTown,
+};
+
+const struct Tileset gTileset_PokeCharlot_PewterCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PewterCity,
+    .palettes = gTilesetPalettes_PokeCharlot_PewterCity,
+    .metatiles = gMetatiles_PokeCharlot_PewterCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PewterCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PewterGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PewterGym,
+    .palettes = gTilesetPalettes_PokeCharlot_PewterGym,
+    .metatiles = gMetatiles_PokeCharlot_PewterGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PewterGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PokemonCenter =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PokemonCenter,
+    .palettes = gTilesetPalettes_PokeCharlot_PokemonCenter,
+    .metatiles = gMetatiles_PokeCharlot_PokemonCenter,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PokemonCenter,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PokemonLeague =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PokemonLeague,
+    .palettes = gTilesetPalettes_PokeCharlot_PokemonLeague,
+    .metatiles = gMetatiles_PokeCharlot_PokemonLeague,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PokemonLeague,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PokemonMansion =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PokemonMansion,
+    .palettes = gTilesetPalettes_PokeCharlot_PokemonMansion,
+    .metatiles = gMetatiles_PokeCharlot_PokemonMansion,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PokemonMansion,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PokemonTower =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PokemonTower,
+    .palettes = gTilesetPalettes_PokeCharlot_PokemonTower,
+    .metatiles = gMetatiles_PokeCharlot_PokemonTower,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PokemonTower,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_PowerPlant =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_PowerPlant,
+    .palettes = gTilesetPalettes_PokeCharlot_PowerPlant,
+    .metatiles = gMetatiles_PokeCharlot_PowerPlant,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_PowerPlant,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_RestaurantHotel =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_RestaurantHotel,
+    .palettes = gTilesetPalettes_PokeCharlot_RestaurantHotel,
+    .metatiles = gMetatiles_PokeCharlot_RestaurantHotel,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_RestaurantHotel,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_RockTunnel =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_RockTunnel,
+    .palettes = gTilesetPalettes_PokeCharlot_RockTunnel,
+    .metatiles = gMetatiles_PokeCharlot_RockTunnel,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_RockTunnel,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SafariZoneBuilding =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SafariZoneBuilding,
+    .palettes = gTilesetPalettes_PokeCharlot_SafariZoneBuilding,
+    .metatiles = gMetatiles_PokeCharlot_SafariZoneBuilding,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SafariZoneBuilding,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SaffronCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SaffronCity,
+    .palettes = gTilesetPalettes_PokeCharlot_SaffronCity,
+    .metatiles = gMetatiles_PokeCharlot_SaffronCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SaffronCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SaffronGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SaffronGym,
+    .palettes = gTilesetPalettes_PokeCharlot_SaffronGym,
+    .metatiles = gMetatiles_PokeCharlot_SaffronGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SaffronGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_School =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_School,
+    .palettes = gTilesetPalettes_PokeCharlot_School,
+    .metatiles = gMetatiles_PokeCharlot_School,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_School,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SeaCottage =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SeaCottage,
+    .palettes = gTilesetPalettes_PokeCharlot_SeaCottage,
+    .metatiles = gMetatiles_PokeCharlot_SeaCottage,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SeaCottage,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SeafoamIsland =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SeafoamIsland,
+    .palettes = gTilesetPalettes_PokeCharlot_SeafoamIsland,
+    .metatiles = gMetatiles_PokeCharlot_SeafoamIsland,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SeafoamIsland,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SeviiIslands45 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SeviiIslands45,
+    .palettes = gTilesetPalettes_PokeCharlot_SeviiIslands45,
+    .metatiles = gMetatiles_PokeCharlot_SeviiIslands45,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SeviiIslands45,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SeviiIslands67 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SeviiIslands67,
+    .palettes = gTilesetPalettes_PokeCharlot_SeviiIslands67,
+    .metatiles = gMetatiles_PokeCharlot_SeviiIslands67,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SeviiIslands67,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SeviiIslands123 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SeviiIslands123,
+    .palettes = gTilesetPalettes_PokeCharlot_SeviiIslands123,
+    .metatiles = gMetatiles_PokeCharlot_SeviiIslands123,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SeviiIslands123,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_SsAnne =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_SsAnne,
+    .palettes = gTilesetPalettes_PokeCharlot_SsAnne,
+    .metatiles = gMetatiles_PokeCharlot_SsAnne,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_SsAnne,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_TanobyRuins =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_TanobyRuins,
+    .palettes = gTilesetPalettes_PokeCharlot_TanobyRuins,
+    .metatiles = gMetatiles_PokeCharlot_TanobyRuins,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_TanobyRuins,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_TrainerTower =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_TrainerTower,
+    .palettes = gTilesetPalettes_PokeCharlot_TrainerTower,
+    .metatiles = gMetatiles_PokeCharlot_TrainerTower,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_TrainerTower,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_UndergroundPath =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_UndergroundPath,
+    .palettes = gTilesetPalettes_PokeCharlot_UndergroundPath,
+    .metatiles = gMetatiles_PokeCharlot_UndergroundPath,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_UndergroundPath,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_UnusedGatehouse1 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_UnusedGatehouse1,
+    .palettes = gTilesetPalettes_PokeCharlot_UnusedGatehouse1,
+    .metatiles = gMetatiles_PokeCharlot_UnusedGatehouse1,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_UnusedGatehouse1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_UnusedGatehouse2 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_UnusedGatehouse2,
+    .palettes = gTilesetPalettes_PokeCharlot_UnusedGatehouse2,
+    .metatiles = gMetatiles_PokeCharlot_UnusedGatehouse2,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_UnusedGatehouse2,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_VermilionCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_VermilionCity,
+    .palettes = gTilesetPalettes_PokeCharlot_VermilionCity,
+    .metatiles = gMetatiles_PokeCharlot_VermilionCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_VermilionCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_VermilionGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_VermilionGym,
+    .palettes = gTilesetPalettes_PokeCharlot_VermilionGym,
+    .metatiles = gMetatiles_PokeCharlot_VermilionGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_VermilionGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_ViridianCity =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_ViridianCity,
+    .palettes = gTilesetPalettes_PokeCharlot_ViridianCity,
+    .metatiles = gMetatiles_PokeCharlot_ViridianCity,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_ViridianCity,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_ViridianForest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_ViridianForest,
+    .palettes = gTilesetPalettes_PokeCharlot_ViridianForest,
+    .metatiles = gMetatiles_PokeCharlot_ViridianForest,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_ViridianForest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokeCharlot_ViridianGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokeCharlot_ViridianGym,
+    .palettes = gTilesetPalettes_PokeCharlot_ViridianGym,
+    .metatiles = gMetatiles_PokeCharlot_ViridianGym,
+    .metatileAttributes = gMetatileAttributes_PokeCharlot_ViridianGym,
+    .callback = NULL,
+};
