@@ -1275,7 +1275,7 @@ const struct Tileset gTileset_PokeCharlot_PalletTown =
     .palettes = gTilesetPalettes_PokeCharlot_PalletTown,
     .metatiles = gMetatiles_PokeCharlot_PalletTown,
     .metatileAttributes = gMetatileAttributes_PokeCharlot_PalletTown,
-    .callback = NULL,
+    .callback = InitTilesetAnim_RG_General,
     .paletteOverrides = gTilesetPalOverride_PalletTown,
 };
 

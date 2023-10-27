@@ -27,7 +27,7 @@ struct DoorGraphics
     u8 size;
     const void *tiles;
     const void *palettes;
-    const struct Tileset *tileset;
+   // const struct Tileset *tileset;
 };
 
 struct DoorAnimFrame
@@ -311,8 +311,8 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, DOOR_SIZE_1x2, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, DOOR_SIZE_1x2, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, DOOR_SIZE_1x2, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
-    {METATILE_PokeCharlot_PalletTown_Door,                  DOOR_SOUND_FRLG,    DOOR_SIZE_1x1, sDoorAnimTiles_RG_Pallet, sDoorAnimPalettes_RG_Pallet, &gTileset_PokeCharlot_PalletTown},
-    {METATILE_PokeCharlot_PalletTown_OaksLabDoor,           DOOR_SOUND_FRLG,    DOOR_SIZE_1x1, sDoorAnimTiles_RG_OaksLab, sDoorAnimPalettes_RG_OaksLab, &gTileset_PokeCharlot_PalletTown},
+    {METATILE_PokeCharlot_PalletTown_Door,                  DOOR_SOUND_FRLG,    DOOR_SIZE_1x1, sDoorAnimTiles_RG_Pallet, sDoorAnimPalettes_RG_Pallet},
+    {METATILE_PokeCharlot_PalletTown_OaksLabDoor,           DOOR_SOUND_FRLG,    DOOR_SIZE_1x1, sDoorAnimTiles_RG_OaksLab, sDoorAnimPalettes_RG_OaksLab},
     {},
 };
 
